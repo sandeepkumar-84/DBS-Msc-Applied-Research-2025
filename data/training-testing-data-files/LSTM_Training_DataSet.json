@@ -1,0 +1,1398 @@
+[
+  {
+    "query": "What is the name of the business school in Dublin?",
+    "expected_answer": "Dublin Business School"
+  },
+  {
+    "query": "Who is the Graduate of Higher Diploma in Arts in Psychology?",
+    "expected_answer": "Peter Lowney"
+  },
+  {
+    "query": "How long was the Higher Diploma in Psychology?",
+    "expected_answer": "two-year"
+  },
+  {
+    "query": "What is Ireland's reputation as?",
+    "expected_answer": "Leading Independent College"
+  },
+  {
+    "query": "What is the level of education at Dublin Business School?",
+    "expected_answer": "third"
+  },
+  {
+    "query": "What country is Dublin Business School located in?",
+    "expected_answer": "Ireland"
+  },
+  {
+    "query": "How many students attend DBS?",
+    "expected_answer": "9,000"
+  },
+  {
+    "query": "What is Dublin Business School's official name?",
+    "expected_answer": "DBS"
+  },
+  {
+    "query": "Along with Accreditation, what is another name for Accreditation?",
+    "expected_answer": "Recognition"
+  },
+  {
+    "query": "What does the QQI sit on?",
+    "expected_answer": "the National Framework of Qualification"
+  },
+  {
+    "query": "What is the underlying framework of Quality and Qualifications Ireland (QQI)?",
+    "expected_answer": "The National Framework of Qualification (NFQ)"
+  },
+  {
+    "query": "What is the underlying framework of Quality and Qualifications Ireland?",
+    "expected_answer": "the National Framework of Qualification (NFQ)"
+  },
+  {
+    "query": "What is the underlying framework of Quality and Qualifications Ireland?",
+    "expected_answer": "the National Framework of Qualification NFQ"
+  },
+  {
+    "query": "What is the acronym for the National Framework of Qualification?",
+    "expected_answer": "NFQ"
+  },
+  {
+    "query": "What is the full form of NFQ",
+    "expected_answer": "National Framework of Qualification"
+  },
+  {
+    "query": "What is the purpose of Quality and Qualifications Ireland (QQI)?",
+    "expected_answer": "To create a single, easily understood qualifications system for all levels of education and training in Ireland."
+  },
+  {
+    "query": "What is the purpose of National Framework of Qualification?",
+    "expected_answer": "To create a single, easily understood qualifications system for all levels of education and training in Ireland."
+  },
+  {
+    "query": "Where is the National Framework of Qualification located?",
+    "expected_answer": "Ireland"
+  },
+  {
+    "query": "What organization awards postgraduate programmes?",
+    "expected_answer": "Quality and Qualifications Ireland (QQI)"
+  },
+  {
+    "query": "What is the Irish acronym for Quality and Qualifications Ireland?",
+    "expected_answer": "QQI"
+  },
+  {
+    "query": "Who recognizes the awards?",
+    "expected_answer": "the Department of Education"
+  },
+  {
+    "query": "Who recognizes the QQI awards",
+    "expected_answer": "the Department of Education"
+  },
+  {
+    "query": "How many stars did DBS achieve overall in the QS Stars Rating System?",
+    "expected_answer": "DBS achieved an overall rating of 4 Stars in the QS Stars Rating System."
+  },
+  {
+    "query": "For which categories did DBS earn the highest rating in the QS Stars assessment?",
+    "expected_answer": "DBS earned the highest rating of 5 Stars for Online Learning and Inclusiveness."
+  },
+  {
+    "query": "List the areas where DBS received a 4-Star rating in addition to its overall score.",
+    "expected_answer": "DBS received 4 Stars in Teaching, Employability, and Academic Development."
+  },
+  {
+    "query": "Why is the QS Stars recognition important for DBS?",
+    "expected_answer": "It is considered one of the most credible and influential ratings globally for higher education institutions, placing DBS in an exclusive group worldwide."
+  },
+  {
+    "query": "What global recognition has DBS recently attained?",
+    "expected_answer": "DBS has joined an exclusive group of higher education institutions worldwide through its QS Stars rating."
+  },
+  {
+    "query": "What institution has created a unique learning environment with students from over 120 countries participating in its programmes",
+    "expected_answer": "College"
+  },
+  {
+    "query": "How many countries have participated in the DBS College's programs?",
+    "expected_answer": "120"
+  },
+  {
+    "query": "What college has established a reputation for its quality programs?",
+    "expected_answer": "DBS"
+  },
+  {
+    "query": "What is the name of the university that provides postgraduate support to students?",
+    "expected_answer": "DBS"
+  },
+  {
+    "query": "What should be integrated with a stimulating social scene?",
+    "expected_answer": "Academia"
+  },
+  {
+    "query": "What college does it take a holistic view of college life?",
+    "expected_answer": "DBS"
+  },
+  {
+    "query": "What city is DBS located in?",
+    "expected_answer": "Dublin"
+  },
+  {
+    "query": "Where is DBS located in relation to St. Stephen's Green?",
+    "expected_answer": "DBS is a mere two-minute walk from St. Stephen's Green."
+  },
+  {
+    "query": "Which public transport options are near DBS?",
+    "expected_answer": "DBS is close to the Luas and all main bus routes."
+  },
+  {
+    "query": "Which streets are DBS's educational sites located on?",
+    "expected_answer": "They are located on Aungier Street and South Great George's Street."
+  },
+  {
+    "query": "Why is DBS campus considered very accessible for part-time students?",
+    "expected_answer": "Because it is located in the city centre, making it easily reachable for part-time students working in Dublin."
+  },
+  {
+    "query": "When was the Education and Training Act passed?",
+    "expected_answer": "2012"
+  },
+  {
+    "query": "What legal act covers DBS courses under the Protection of Enrolled Learners (PEL) provision?",
+    "expected_answer": "The Qualifications and Quality Assurance (Education and Training) Act 2012, Section 65 (4)."
+  },
+  {
+    "query": "Who is the guarantor for DBS under the Protection of Enrolled Learners provision?",
+    "expected_answer": "Kaplan, Inc."
+  },
+  {
+    "query": "What happens if a Trigger Event occurs for a DBS course covered under PEL?",
+    "expected_answer": "The Guarantor, Kaplan, Inc., will refund the moneys most recently paid to the relevant payers."
+  },
+  {
+    "query": "What is considered a Trigger Event at DBS?",
+    "expected_answer": "A Trigger Event occurs when DBS does not provide the Programme for any reason, including insolvency or winding-up, or when enrolled learners have started but not completed a Programme and DBS ceases to provide it, or when QQI withdraws validation of a Programme under specific sections of the Act."
+  },
+  {
+    "query": "Can a Trigger Event occur if learners have started a programme but it is not completed?",
+    "expected_answer": "Yes, if enrolled learners have started a Programme but it is not completed because DBS ceases to provide it for any reason, it is considered a Trigger Event."
+  },
+  {
+    "query": "Does withdrawal of validation by QQI count as a Trigger Event?",
+    "expected_answer": "Yes, withdrawal of validation of a Programme by QQI under section 36(7), section 47, or section 59(7) of the Act is considered a Trigger Event."
+  },
+  {
+    "query": "What was the former name of the Dublin Business School?",
+    "expected_answer": "Accountancy and Business College"
+  },
+    {
+    "query": "What is the full name of DBS?",
+    "expected_answer": "Dublin Business School"
+  },
+  {
+    "query": "What was the former name of the DBS?",
+    "expected_answer": "Accountancy and Business College"
+  },
+  {
+    "query": "What was the former name of the Dublin Business School or DBS?",
+    "expected_answer": "Accountancy and Business College"
+  },
+  {
+    "query": "When did the School begin providing accounting, marketing and banking programmes?",
+    "expected_answer": "the mid-1980s"
+  },
+  {
+    "query": "When did the School begin providing accounting, marketing and banking programs?",
+    "expected_answer": "the mid-1980s"
+  },
+  {
+    "query": "When was the School established?",
+    "expected_answer": "1975"
+  },
+  {
+    "query": "When was the Dublin Business School established?",
+    "expected_answer": "1975"
+  },
+  {
+    "query": "What is the purpose of the Learner Supports Service at DBS?",
+    "expected_answer": "The purpose of the Learner Supports Service is to ensure that programmes and facilities are accessible to students with specific needs wherever possible and to support students in achieving their educational goals."
+  },
+  {
+    "query": "What is the purpose of the Learner Supports at DBS?",
+    "expected_answer": "The purpose of the Learner Supports Service is to ensure that programmes and facilities are accessible to students with specific needs wherever possible and to support students in achieving their educational goals."
+  },
+  {
+    "query": "Where can more information on the Learner Supports Service be found?",
+    "expected_answer": "More information on the Learner Supports Service can be found on the DBS website at https://students.dbs.ie/dbs-student-services/disabilities-support."
+  },
+  {
+    "query": "Which policy contains full details of supports for learners with additional needs?",
+    "expected_answer": "Full details can be found in QAH Section 4.4 Supports for Learners with Additional Needs (Need Extra Provision) Policy."
+  },
+  {
+    "query": "When should students with specific needs register for support?",
+    "expected_answer": "Students with specific needs should register upon commencement of their programme."
+  },
+  {
+    "query": "How can students contact the Learner Supports Coordinator?",
+    "expected_answer": "They can contact by phone (01 4170667), email (learnersupports@dbs.ie), or face-to-face in the Library in Aungier Street."
+  },
+  {
+    "query": "What is required for an assessment of additional support needs?",
+    "expected_answer": "An appropriate report from a relevant expert such as a medical consultant or educational psychologist."
+  },
+  {
+    "query": "contact number of the Learner Supports Coordinator?",
+    "expected_answer": "They can contact by phone (01 4170667), email (learnersupports@dbs.ie), or face-to-face in the Library in Aungier Street."
+  },
+  {
+    "query": "Where is the Library located?",
+    "expected_answer": "Aungier Street"
+  },
+  {
+    "query": "What is the location of the library?",
+    "expected_answer": "Aungier Street"
+  },
+  {
+    "query": "Can students at private colleges apply to the Fund for Students with Disabilities?",
+    "expected_answer": "No, students at private colleges are not entitled to apply to the Fund for Students with Disabilities."
+  },
+  {
+    "query": "Who administers the Fund for Students with Disabilities?",
+    "expected_answer": "The Fund for Students with Disabilities is administered by the Higher Education Authority (HEA)."
+  },
+  {
+    "query": "What kinds of accommodations are covered by the Fund for Students with Disabilities?",
+    "expected_answer": "Accommodations such as classroom assistants, sign language interpreters, and assistive technologies are covered."
+  },
+  {
+    "query": "Will DBS still try to meet the needs of students with disabilities despite these funding limitations?",
+    "expected_answer": "Yes, Dublin Business School will endeavour to meet the needs of students within these constraints."
+  },
+  {
+    "query": "What is the main mandate of Education in Ireland?",
+    "expected_answer": "To promote Ireland as a quality destination for students and support the international activities of Irish education institutions."
+  },
+  {
+    "query": "What role does Education in Ireland play in relation to Irish education expertise?",
+    "expected_answer": "It promotes Irish education expertise as a valuable resource for international institutions, development agencies, and governments."
+  },
+  {
+    "query": "What must a student do before applying for an Irish visa after admission to DBS?",
+    "expected_answer": "Pay their tuition fees in full to the College prior to making the visa application."
+  },
+  {
+    "query": "Where must non-EU students register upon arrival in Ireland?",
+    "expected_answer": "With the Garda National Immigration Bureau (GNIB) for permission to remain in Ireland to study."
+  },
+  {
+    "query": "How many hours per week can non-EU international students work during term time in Ireland?",
+    "expected_answer": "Up to 20 hours per week."
+  },
+  {
+    "query": "Are non-EU students allowed to work full-time during holiday periods?",
+    "expected_answer": "Yes, up to 40 hours per week during scheduled holiday periods."
+  },
+  {
+    "query": "What financial proof is required when applying for a student visa for Ireland?",
+    "expected_answer": "Applicants must show they have sufficient resources to support themselves for the duration of their studies; potential earnings from part-time work are not considered."
+  },
+  {
+    "query": "What support does the International Student Services Team at DBS provide?",
+    "expected_answer": "They provide registration and orientation, immigration services and advice, international student letters, accommodation advice, general advice and support, social and cultural activities, and further study information."
+  },
+  {
+    "query": "How many years has DBS established itself as a center for international education excellence?",
+    "expected_answer": "Over the last 46 years."
+  },
+  {
+    "query": "How many university partnerships has DBS developed in Europe?",
+    "expected_answer": "Over 75 university partnerships."
+  },
+  {
+    "query": "What reasons do European students give for choosing DBS?",
+    "expected_answer": "Quality of teaching, excellent location, wide range of sports and activities available, and the opportunity to obtain an internationally recognised qualification from an English speaking country."
+  },
+  {
+    "query": "What is ISEG and what opportunity does it provide to students?",
+    "expected_answer": "ISEG is a group of seven business schools in France, and its students can take the final year of the BA (Hons) in Marketing or Masters programmes at DBS as part of their studies."
+  },
+  {
+    "query": "What kind of programme does DBS offer to US undergraduate students?",
+    "expected_answer": "A Study Abroad Programme with an initial Foundation Course on Ireland followed by integration into various courses in the DBS School of Business and DBS School of Arts."
+  },
+  {
+    "query": "What is the collaboration between DBS and Xiamen University?",
+    "expected_answer": "An Articulation Agreement allowing Xiamen graduates to continue their studies at DBS and obtain a BA (Hons) Degree award from QQI in Accounting and Finance or Financial Services."
+  },
+  {
+    "query": "What is the UPAEP Academic Collaboration with MARA, Malaysia?",
+    "expected_answer": "A transnational collaborative agreement delivering the DBS BA (Hons) in Accounting and Finance programme at KPTM in Malaysia."
+  },
+  {
+    "query": "How many Malaysian students have graduated with DBS qualifications through the MARA collaboration?",
+    "expected_answer": "Over 1,300 Malaysian students."
+  },
+  {
+    "query": "What is FAE Brazil’s role in DBS partnerships?",
+    "expected_answer": "FAE Brazil is a leading provider of business and management education partnering with DBS."
+  },
+  {
+    "query": "What programs does EU Business School offer in partnership with DBS?",
+    "expected_answer": "BA (Hons) in Business and a Master of Business Administration (MBA)."
+  },
+  {
+    "query": "What is notable about EU Business School's campuses?",
+    "expected_answer": "They are located in Barcelona, Geneva, Montreux, Munich and online, and the school is professionally accredited and highly ranked globally."
+  },
+  {
+    "query": "What is Universidad Popular Autónoma del Estado de Puebla?",
+    "expected_answer": "A private, non-profit university in Puebla, Mexico with over 43 undergraduate, 34 masters, 12 PhD, and 11 specialisation programs."
+  },
+  {
+    "query": "What is the partnership between DBS and University of New York in Prague (UNYP)?",
+    "expected_answer": "It enables DBS to offer new postgraduate degrees in Prague, helping develop an international ethos and reach."
+  },
+  {
+    "query": "What are the main objectives of Education in Ireland?",
+    "expected_answer": "To promote Ireland as a quality destination for students; support international activities of Irish education institutions; act as a national contact point between Irish education services and the international marketplace; promote Irish education expertise globally; and liaise with education interests and government to remove barriers in international education."
+  },
+  {
+    "query": "What must non-EU students do upon arrival in Ireland?",
+    "expected_answer": "Register with the Garda National Immigration Bureau (GNIB) for permission to remain in Ireland to study."
+  },
+  {
+    "query": "How can non-EU students get help with the Irish visa process at DBS?",
+    "expected_answer": "The International Team at DBS will help guide them through the visa and immigration registration process."
+  },
+  {
+    "query": "What are the work restrictions for international non-EU students in Ireland?",
+    "expected_answer": "They can work up to 20 hours per week during term time and up to 40 hours per week during scheduled holiday periods."
+  },
+  {
+    "query": "Are earnings from part-time work considered when applying for an Irish student visa?",
+    "expected_answer": "No, the visa office does not consider potential earnings from part-time work when assessing financial resources."
+  },
+  {
+    "query": "What learning environment does DBS offer international students?",
+    "expected_answer": "A learning environment and experience that explicitly meets the needs and expectations of international students."
+  },
+  {
+    "query": "What services does the International Student Services Team at DBS provide?",
+    "expected_answer": "Registration and Orientation, Immigration Services and Advice, International Student Letters, Accommodation Advice, General Advice and Support, Social and Cultural Activities, and Further Study Information."
+  },
+  {
+    "query": "How many university partnerships has DBS established in Europe?",
+    "expected_answer": "DBS has developed over 75 university partnerships in European countries."
+  },
+  {
+    "query": "Why do European students choose DBS?",
+    "expected_answer": "Because of the quality of teaching, excellent location, wide range of sports and activities, and the opportunity to obtain an internationally recognised qualification from an English-speaking country."
+  },
+  {
+    "query": "What is the relationship between DBS and ISEG in France?",
+    "expected_answer": "DBS has a close strategic alliance with ISEG, allowing students to take the final year of the BA (Hons) in Marketing or Masters programmes at DBS."
+  },
+  {
+    "query": "Which French business school network is linked with DBS?",
+    "expected_answer": "EGC (Écoles de Gestion et de Commerce), a network of 28 French Business Schools linked with DBS since 2002."
+  },
+  {
+    "query": "What is CEU Madrid known for?",
+    "expected_answer": "It is the oldest private university in Spain offering BA, Double Degrees, and Postgraduate courses in Economics, Business, Communication, Humanities, Architecture, Engineering, and Health Sciences."
+  },
+  {
+    "query": "What are the areas of specialization at IULM University in Milan?",
+    "expected_answer": "Arts, Foreign Languages, Communication, Tourism, and Cultural Heritage."
+  },
+  {
+    "query": "What is the DBS US Study Abroad Programme?",
+    "expected_answer": "A programme for undergraduate US students involving a Foundation Course on Ireland and courses in DBS School of Business and School of Arts."
+  },
+  {
+    "query": "What documents should EU applicants submit for Masters programmes at DBS?",
+    "expected_answer": "Academic transcripts (original and official English translation if needed), proof of identification, detailed CV, proof of English proficiency where applicable."
+  },
+  {
+    "query": "Are EU applicants who previously attended DBS required to provide academic transcripts again?",
+    "expected_answer": "No, applicants who have previously attended DBS do not need to provide academic transcripts."
+  },
+  {
+    "query": "What additional documents are required from Non-EU applicants residing in Ireland?",
+    "expected_answer": "A copy of GNIB card, work permit (if applicable), passport, and letter from the Department of Justice, Equality and Law Reform."
+  },
+  {
+    "query": "Where can applications be submitted for DBS programmes?",
+    "expected_answer": "Applications can be submitted online at www.dbs.ie or by contacting the Admissions Office for an application form."
+  },
+  {
+    "query": "What additional references do Non-EU applicants need to provide?",
+    "expected_answer": "Academic and business references, ideally one academic and one business reference, except for Business programmes where they are not required."
+  },
+  {
+    "query": "What is the contact information for the Postgraduate Admissions Office at DBS?",
+    "expected_answer": "Address: 13/14 Aungier Street, Dublin 2; Phone: +353 1 4177500; Email: admissions@dbs.ie."
+  },
+  {
+    "query": "What is the contact information for the International Admissions Office at DBS?",
+    "expected_answer": "Address: 13/14 Aungier Street, Dublin 2, Ireland; Phone: +353 1 4177500; Email: international@dbs.ie."
+  },
+  {
+    "query": "What is the awarding body for the Higher Diploma in Arts in Psychology at DBS?",
+    "expected_answer": "Quality & Qualifications Ireland (QQI)."
+  },
+  {
+    "query": "What level is the Higher Diploma in Arts in Psychology at DBS?",
+    "expected_answer": "NFQ Level 8 studies."
+  },
+  {
+    "query": "What is the duration of the Higher Diploma in Arts in Psychology programme at DBS?",
+    "expected_answer": "Full-Time: 2 Years, Part-Time: 2 Years."
+  },
+  {
+    "query": "Who is the Higher Diploma in Arts in Psychology designed for?",
+    "expected_answer": "Non-Psychology graduates and those seeking a professional career or postgraduate study in Psychology."
+  },
+  {
+    "query": "What are some of the Year 1 modules in the Higher Diploma in Arts in Psychology at DBS?",
+    "expected_answer": "History and Schools in Psychology, Research Technique and Analysis 1, Cognitive Psychology, Foundations in Developmental and Social Psychology, Behaviour Analysis, Research Technique and Analysis 2, Experimental Psychology, Ethical Research Methods and Design."
+  },
+  {
+    "query": "What are some of the Year 2 modules in the Higher Diploma in Arts in Psychology at DBS?",
+    "expected_answer": "Personality and Individual Differences, Health Psychology, Biopsychology, Advanced Developmental and Social Psychology, Mental Health and Distress."
+  },
+  {
+    "query": "What is the professional significance of completing the Higher Diploma in Arts in Psychology at DBS?",
+    "expected_answer": "Graduates may be eligible to apply to postgraduate training courses in Psychology and gain employment in their chosen specialization."
+  },
+  {
+    "query": "What documents are required for Masters Programme applications at DBS for EU applicants?",
+    "expected_answer": "Academic Transcripts (original and official English translation if issued in another language), Proof of Identification (driver's licence or passport), Detailed Curriculum Vitae, Proof of English language proficiency if applicable."
+  },
+  {
+    "query": "Do applicants who have previously attended DBS need to provide academic transcripts again?",
+    "expected_answer": "No, applicants who have previously attended DBS do not need to provide academic transcripts again."
+  },
+  {
+    "query": "What additional documents must non-EU applicants residing in Ireland provide for Masters applications?",
+    "expected_answer": "A copy of the GNIB card, work permit (if applicable), passport, and the letter from the Department of Justice, Equality and Law Reform explaining the provision of these documents."
+  },
+  {
+    "query": "Where can application forms for DBS programmes be obtained?",
+    "expected_answer": "Applications can be made online at www.dbs.ie or by contacting the Admissions Office for an application form."
+  },
+  {
+    "query": "What documents are non-EU applicants required to submit for programme applications at DBS?",
+    "expected_answer": "Academic Transcripts (with official English translation if applicable), Proof of Identification (passport), Detailed Curriculum Vitae, Proof of English proficiency, Academic/business references (except for Business programmes), and copies of GNIB card and work permit if applicable."
+  },
+  {
+    "query": "Are academic/business references required for Business programmes for non-EU applicants at DBS?",
+    "expected_answer": "No, academic/business references are not required for Business programmes for non-EU applicants."
+  },
+  {
+    "query": "Who should be contacted for further information about postgraduate admissions at DBS?",
+    "expected_answer": "The Postgraduate Admissions Office at Dublin Business School, 13/14 Aungier Street, Dublin 2; Phone: +353 1 4177500; Email: admissions@dbs.ie."
+  },
+  {
+    "query": "Who should be contacted for further information about international admissions at DBS?",
+    "expected_answer": "The International Admissions Office at Dublin Business School, 13/14 Aungier Street, Dublin 2; Phone: +353 1 4177500; Email: international@dbs.ie."
+  },
+  {
+    "query": "What is the awarding body for the Higher Diploma in Arts in Psychology at DBS?",
+    "expected_answer": "Quality & Qualifications Ireland (QQI)."
+  },
+  {
+    "query": "At what NFQ level is the Higher Diploma in Arts in Psychology offered?",
+    "expected_answer": "NFQ Level 8."
+  },
+  {
+    "query": "What is the duration of the Higher Diploma in Arts in Psychology programme at DBS?",
+    "expected_answer": "Full-Time 2 years or Part-Time 2 years."
+  },
+  {
+    "query": "Who is the Higher Diploma in Arts in Psychology suited for?",
+    "expected_answer": "Non-Psychology graduates and those seeking to pursue a professional career or postgraduate study in Psychology."
+  },
+  {
+    "query": "What is the significance of completing the Higher Diploma in Arts in Psychology?",
+    "expected_answer": "It represents the necessary first step to becoming a professional psychologist and allows graduates to apply for postgraduate training courses."
+  },
+  {
+    "query": "Name some of the subjects covered in Year 1 of the Higher Diploma in Arts in Psychology at DBS.",
+    "expected_answer": "History and Schools in Psychology, Research Technique and Analysis 1, Cognitive Psychology, Foundations in Developmental and Social Psychology, Behaviour Analysis, Research Technique and Analysis 2, Experimental Psychology, Ethical Research Methods and Design."
+  },
+  {
+    "query": "Name some of the subjects covered in Year 2 of the Higher Diploma in Arts in Psychology at DBS.",
+    "expected_answer": "Personality and Individual Differences, Health Psychology, Biopsychology, Advanced Developmental and Social Psychology, Mental Health and Distress."
+  },
+  {
+    "query": "What is the mandate of Education in Ireland?",
+    "expected_answer": "To promote Ireland as a quality destination for students and support international activities of Irish education institutions."
+  },
+  {
+    "query": "Who should non-EU students contact for help with Irish visa applications at DBS?",
+    "expected_answer": "The International Team at Dublin Business School."
+  },
+  {
+    "query": "What must non-EU students do upon arrival in Ireland to study at DBS?",
+    "expected_answer": "Register with the Garda National Immigration Bureau (GNIB) for permission to remain in Ireland."
+  },
+  {
+    "query": "Are international non-EU students in Ireland allowed to work during their studies?",
+    "expected_answer": "Yes, up to 20 hours per week during term and full-time during scheduled holidays."
+  },
+  {
+    "query": "What is required to prove financial resources when applying for a student visa for Ireland?",
+    "expected_answer": "Applicants must show they have sufficient resources to support themselves for the duration of their studies, without counting potential earnings from part-time work."
+  },
+  {
+    "query": "Does the Irish student visa offer a 'stay back' option for graduates?",
+    "expected_answer": "Yes, for many courses DBS offers a stay back option for graduates."
+  },
+  {
+    "query": "What services does the International Student Services Team at DBS provide?",
+    "expected_answer": "Registration and Orientation, Immigration Services and Advice, International Student Letters, Accommodation Advice, General Advice and Support, Social and Cultural Activities, Further Study Information."
+  },
+  {
+    "query": "How many university partnerships has DBS developed in Europe?",
+    "expected_answer": "DBS has developed over 75 university partnerships in European countries."
+  },
+  {
+    "query": "Why do European students choose DBS?",
+    "expected_answer": "Because of the quality of teaching, excellent location, wide range of sports and activities, and the opportunity to obtain an internationally recognised qualification from an English-speaking country."
+  },
+  {
+    "query": "What is the relationship between DBS and ISEG in France?",
+    "expected_answer": "DBS has a close strategic alliance with ISEG, a group of seven business schools in France, allowing ISEG students to take final year or Masters programmes at DBS."
+  },
+  {
+    "query": "What is EGC and what is its connection with DBS?",
+    "expected_answer": "EGC is a network of 28 French Business Schools, and DBS welcomes students from EGC annually for international study experiences."
+  },
+  {
+    "query": "What programs does CEU San Pablo University of Madrid offer?",
+    "expected_answer": "BA (Hons), Double Degrees, and Postgraduate courses in Economics, Business, Communication, Humanities, Architecture, Engineering, and Health Sciences."
+  },
+  {
+    "query": "What is IULM University known for?",
+    "expected_answer": "IULM University in Milan specializes in Arts, Foreign Languages, Communication, Tourism, and Cultural Heritage."
+  },
+  {
+    "query": "What US programme does DBS offer?",
+    "expected_answer": "DBS offers a Study Abroad Programme to undergraduate students from the US, including a Foundation Course and integration into business and arts courses."
+  },
+  {
+    "query": "What is the significance of the articulation agreement with Xiamen University, China?",
+    "expected_answer": "It allows Xiamen graduates to continue studies at DBS and earn a BA (Hons) Degree in Accounting and Finance or Financial Services."
+  },
+  {
+    "query": "What collaboration exists between DBS and MARA in Malaysia?",
+    "expected_answer": "A transnational agreement delivers the BA (Hons) in Accounting and Finance at KPTM in Malaysia with over 1,300 Malaysian graduates from DBS qualifications."
+  },
+  {
+    "query": "What programs will EU Business School offer through DBS partnership?",
+    "expected_answer": "BA (Hons) in Business and a Master of Business Administration (MBA)."
+  },
+  {
+    "query": "Where is EU Business School located?",
+    "expected_answer": "Barcelona, Geneva, Montreux, Munich, and online."
+  },
+  {
+    "query": "What type of institution is Universidad Popular Autónoma del Estado de Puebla?",
+    "expected_answer": "A private, non-profit university in Puebla, Mexico, offering numerous undergraduate, masters, PhD, and specialization programs."
+  },
+  {
+    "query": "What postgraduate degrees partnership does DBS have with University of New York in Prague?",
+    "expected_answer": "DBS and UNYP partnership enables new postgraduate degrees in Prague, enhancing international reach and reputation."
+  },
+  {
+    "query": "Where can prospective students find more information about applying to DBS?",
+    "expected_answer": "On the DBS website at www.dbs.ie."
+  },
+  {
+    "query": "What should applicants submit along with the completed application form?",
+    "expected_answer": "A copy of the original academic transcripts or certificate."
+  },
+  {
+    "query": "What is the general fee for applying to DBS?",
+    "expected_answer": "€40 for undergraduate and €70 for postgraduate programs."
+  },
+  {
+    "query": "How can application fees be paid?",
+    "expected_answer": "Via credit or debit card through the DBS website, or by cheque or postal order payable to Dublin Business School."
+  },
+  {
+    "query": "What is required if a candidate's academic documents are in a language other than English or Irish?",
+    "expected_answer": "Certified English translations of those documents must be provided."
+  },
+  {
+    "query": "Who can complete the academic reference for applicants?",
+    "expected_answer": "An academic referee or a professional referee (such as a previous employer or tutor) who knows the candidate."
+  },
+  {
+    "query": "When should applicants expect a decision after submitting their application?",
+    "expected_answer": "Applications are usually processed within 4 to 6 weeks."
+  },
+  {
+    "query": "What are the English language requirements for international students?",
+    "expected_answer": "Applicants must meet the minimum English language requirements, such as IELTS or equivalent scores."
+  },
+  {
+    "query": "Can applicants submit their application online?",
+    "expected_answer": "Yes, applications can be submitted online via the DBS website."
+  },
+  {
+    "query": "Is there an application deadline for programs at DBS?",
+    "expected_answer": "Application deadlines vary depending on the program, but early application is encouraged."
+  },
+  {
+    "query": "What documents must Non-EU applicants submit with their application to DBS?",
+    "expected_answer": "Academic transcripts (original and official English translation if issued in another language), proof of identification (passport), detailed Curriculum Vitae, proof of English proficiency, academic/business references (except for Business programmes), and a copy of GNIB card and work permit if applicable."
+  },
+  {
+    "query": "Are academic/business references required for Non-EU applicants applying for Business programmes?",
+    "expected_answer": "No, academic/business references are not required for Business programmes."
+  },
+  {
+    "query": "What should Non-EU applicants with residency in Ireland include in their application?",
+    "expected_answer": "A copy of their GNIB (Garda National Immigration Bureau) card, work permit (if applicable), passport, and the letter issued by the Department of Justice, Equality and Law Reform explaining their documentation."
+  },
+  {
+    "query": "Where should Non-EU applicants send their application and documents?",
+    "expected_answer": "To the Postgraduate Admissions Office at Dublin Business School, 13/14 Aungier Street, Dublin 2."
+  },
+  {
+    "query": "Can Non-EU applicants apply online?",
+    "expected_answer": "Yes, applications can be made online at www.dbs.ie or by contacting the International Admissions Office for an application form."
+  },
+  {
+    "query": "Who can applicants contact for more information about international applications?",
+    "expected_answer": "The International Admissions Office at Dublin Business School, via phone +353 1 4177500 or email international@dbs.ie."
+  },
+  {
+    "query": "What is the awarding body for the Higher Diploma in Arts in Psychology at DBS?",
+    "expected_answer": "Quality & Qualifications Ireland (QQI)."
+  },
+  {
+    "query": "What NFQ level is the Higher Diploma in Arts in Psychology?",
+    "expected_answer": "NFQ Level 8."
+  },
+  {
+    "query": "How long is the Higher Diploma in Arts in Psychology programme at DBS?",
+    "expected_answer": "It is a 2-year full-time or 2-year part-time programme."
+  },
+  {
+    "query": "Who is the Higher Diploma in Arts in Psychology suited to?",
+    "expected_answer": "Non-Psychology graduates and those seeking to pursue a professional career or postgraduate study in Psychology."
+  },
+  {
+    "query": "What are some of the Year 1 modules in the Higher Diploma in Arts in Psychology?",
+    "expected_answer": "History and Schools in Psychology, Research Technique and Analysis 1, Cognitive Psychology, Foundations in Developmental and Social Psychology, Behaviour Analysis, Research Technique and Analysis 2, Experimental Psychology, Ethical Research Methods and Design."
+  },
+  {
+    "query": "What are some of the Year 2 modules in the Higher Diploma in Arts in Psychology?",
+    "expected_answer": "Personality and Individual Differences, Health Psychology, Biopsychology, Advanced Developmental and Social Psychology, Mental Health and Distress."
+  },
+  {
+    "query": "What is the significance of completing the Higher Diploma in Arts in Psychology?",
+    "expected_answer": "Graduates may be eligible to apply to postgraduate training courses in their chosen specialisation and ultimately gain employment in their area of expertise."
+  },
+  {
+    "query": "How many university partnerships has DBS developed over the last 46 years?",
+    "expected_answer": "DBS has developed over 75 university partnerships in European countries."
+  },
+  {
+    "query": "Why do European students choose DBS for their studies?",
+    "expected_answer": "Because of the quality of teaching, excellent location, wide range of sports and activities, and the opportunity to obtain an internationally recognised qualification from an English speaking country."
+  },
+  {
+    "query": "Which prestigious group of business schools in France has a close strategic alliance with DBS?",
+    "expected_answer": "ISEG, a group of seven business schools located in Paris, Lille, Strasbourg, Lyon, Toulouse, Bordeaux, and Nantes."
+  },
+  {
+    "query": "What opportunity does the alliance with ISEG provide to their students?",
+    "expected_answer": "Students from the ISEG group can take the final year of the BA (Hons) in Marketing or a number of Masters programmes at DBS."
+  },
+  {
+    "query": "What is EGC in France and its connection with DBS?",
+    "expected_answer": "EGC is a network of 28 reputable French Business Schools linked to DBS since 2002, with students joining DBS for international study experience."
+  },
+  {
+    "query": "Which university in Milan, Italy, is mentioned as a partner of DBS?",
+    "expected_answer": "IULM University, Milan, Italy."
+  },
+  {
+    "query": "What is notable about CEU San Pablo University of Madrid?",
+    "expected_answer": "Founded in 1933, it is the oldest private university in Spain offering BA, Double Degrees, and Postgraduate programs in various fields."
+  },
+  {
+    "query": "What is the US Study Abroad Programme offered by DBS?",
+    "expected_answer": "A programme for US undergraduate students involving an initial Foundation Course on Ireland and integration into DBS courses in Business and Arts."
+  },
+  {
+    "query": "What is the significance of the articulation agreement with Xiamen University, China?",
+    "expected_answer": "It allows Xiamen graduates to continue their studies at DBS and obtain a BA (Hons) Degree award from QQI in Accounting and Finance or Financial Services."
+  },
+  {
+    "query": "What collaborative agreement does DBS have with MARA, Malaysia?",
+    "expected_answer": "A transnational collaborative agreement delivering the BA (Hons) in Accounting and Finance in KPTM, Malaysia."
+  },
+  {
+    "query": "Who is FAE Centro Universitário, and what is their relation to DBS?",
+    "expected_answer": "A Brazilian institution focused on business and management education that collaborates with DBS."
+  },
+  {
+    "query": "What is EU Business School and its agreement with DBS?",
+    "expected_answer": "An internationally accredited business school with campuses in Europe; DBS signed an agreement to offer programmes including BA (Hons) in Business and MBA."
+  },
+  {
+    "query": "What collaboration exists between DBS and University of New York in Prague (UNYP)?",
+    "expected_answer": "A partnership to bring new postgraduate degrees to Prague and develop DBS’s international reach."
+  },
+  {
+    "query": "Where is Dublin Business School located?",
+    "expected_answer": "Dublin Business School is located in the heart of Dublin City Centre."
+  },
+  {
+    "query": "What modes of transport are available to reach DBS campus?",
+    "expected_answer": "The campus is easily accessible by bus, train, or Luas light rail system."
+  },
+  {
+    "query": "What facilities does the DBS campus provide for students?",
+    "expected_answer": "DBS campus offers lecture theatres, computer rooms, a library with open access PCs, student common rooms, canteen, cafeteria, and coffee shops."
+  },
+  {
+    "query": "What sports facilities are available at DBS?",
+    "expected_answer": "Students can use the sports facilities and gym in Dublin City University (DCU), close to DBS."
+  },
+  {
+    "query": "How does DBS support students in applying for accommodation?",
+    "expected_answer": "DBS provides guidance and support to students applying for accommodation through its Accommodation Office."
+  },
+  {
+    "query": "What are the accommodation options for DBS students?",
+    "expected_answer": "Options include Halls of Residence, shared houses or apartments, homestays, and private rented accommodation."
+  },
+  {
+    "query": "Where is the DBS library located?",
+    "expected_answer": "The DBS library is situated on the main campus."
+  },
+  {
+    "query": "What kind of study spaces does DBS library offer?",
+    "expected_answer": "It offers quiet study areas, group study rooms, and open access computers."
+  },
+  {
+    "query": "What technology resources are available to DBS students?",
+    "expected_answer": "Students have access to Wi-Fi across the campus and a dedicated IT support team."
+  },
+  {
+    "query": "Are there any student societies or clubs at DBS?",
+    "expected_answer": "Yes, DBS has numerous student societies and clubs catering to a variety of interests."
+  },
+  {
+    "query": "What is the mandate of Education in Ireland?",
+    "expected_answer": "To promote Ireland as a quality destination for students and support the international activities of Irish education institutions."
+  },
+  {
+    "query": "How does Education in Ireland act as a national point of contact?",
+    "expected_answer": "It acts as a national point of contact and referral to and from Irish suppliers of education services and the international marketplace."
+  },
+  {
+    "query": "What kind of support does DBS provide to students accepted for admission regarding visas?",
+    "expected_answer": "DBS provides guidance on the Irish visa application process to accepted students."
+  },
+  {
+    "query": "When must tuition fees be paid by international students applying for a visa?",
+    "expected_answer": "Tuition fees must be paid in full to the College prior to making the visa application."
+  },
+  {
+    "query": "What must all non-EU students do upon arrival in Ireland?",
+    "expected_answer": "All non-EU students are required to register with the Garda National Immigration Bureau (GNIB) for permission to remain in Ireland to study."
+  },
+  {
+    "query": "Who assists international students with the GNIB registration process at DBS?",
+    "expected_answer": "The International Team at DBS helps students through the GNIB registration process."
+  },
+  {
+    "query": "Where can students find further details on the Irish visa process?",
+    "expected_answer": "Further details can be requested from the local Irish Embassy or Consulate or found at the Irish Naturalization and Immigration Service (INIS) website www.inis.gov.ie."
+  },
+  {
+    "query": "How many hours per week can international non-EU students work during term time in Ireland?",
+    "expected_answer": "International non-EU students can work up to 20 hours per week during term time."
+  },
+  {
+    "query": "Can international students work full-time during holidays in Ireland?",
+    "expected_answer": "Yes, they can work full-time up to 40 hours per week during scheduled holiday periods."
+  },
+  {
+    "query": "What courses are eligible for work access for international students?",
+    "expected_answer": "Access to work is restricted to students taking courses listed on the Department of Education's Internationalization Register."
+  },
+  {
+    "query": "What financial requirement must students show when applying for a student visa to Ireland?",
+    "expected_answer": "Students must show they have sufficient resources to support themselves for the duration of their studies; potential earnings from part-time work are not considered."
+  },
+  {
+    "query": "Does the Irish student visa offer a 'stay back' option for graduates?",
+    "expected_answer": "Yes, the Irish student visa permits a 'stay back' option for graduates of many DBS courses."
+  },
+  {
+    "query": "What services does the International Student Services Team at DBS provide?",
+    "expected_answer": "They provide registration and orientation, immigration services and advice, international student letters, accommodation advice, general support, social and cultural activities, and further study information."
+  },
+  {
+    "query": "What subjects does the School of Arts at Dublin Business School cover?",
+    "expected_answer": "The School of Arts covers subjects including Media, Film, Journalism, Music, and Performing Arts."
+  },
+  {
+    "query": "What type of courses are offered by the School of Arts at DBS?",
+    "expected_answer": "The School of Arts offers a range of courses from level 6 Certificate to level 9 Postgraduate Diploma and Masters degree."
+  },
+  {
+    "query": "How do the courses in the School of Arts combine practical and academic learning?",
+    "expected_answer": "The courses combine academic rigour with practical, vocational learning and many have a professional focus."
+  },
+  {
+    "query": "Who are the students in the School of Arts at DBS?",
+    "expected_answer": "Students include those seeking to enter the media and creative industries as well as those who want to develop media and communications knowledge."
+  },
+  {
+    "query": "What practical opportunities are available to students in the School of Arts?",
+    "expected_answer": "Students have opportunities to engage in practical production, professional internships, and work placements."
+  },
+  {
+    "query": "What modern facilities does the School of Arts at DBS provide?",
+    "expected_answer": "The School provides modern, purpose-built studios and media laboratories with access to up-to-date technologies."
+  },
+  {
+    "query": "What types of careers do graduates from the School of Arts pursue?",
+    "expected_answer": "Graduates pursue careers in the creative, cultural and media industries, including TV, film, music, publishing, journalism, advertising, and digital media."
+  },
+  {
+    "query": "What is the mandate of Education in Ireland?",
+    "expected_answer": "To promote Ireland as a quality destination for students, support the international activities of Irish education institutions, act as a national contact and referral point, promote Irish education expertise internationally, and liaise with government to remove barriers to the international education sector."
+  },
+  {
+    "query": "What must a student do before applying for an Irish visa if accepted by DBS?",
+    "expected_answer": "Students are required to pay their tuition fees in full to DBS prior to making their visa application."
+  },
+  {
+    "query": "What must non-EU students do upon arrival in Ireland?",
+    "expected_answer": "All non-EU students are required to register with the Garda National Immigration Bureau (GNIB) for permission to remain in Ireland to study."
+  },
+  {
+    "query": "Who helps international students with the Irish visa and immigration process at DBS?",
+    "expected_answer": "The International Team at DBS helps international students with the visa application and registration process."
+  },
+  {
+    "query": "Where can further details on the Irish visa process be found?",
+    "expected_answer": "Further details can be requested from your local Irish Embassy or Consulate or found at the Irish Naturalization and Immigration Service website www.inis.gov.ie."
+  },
+  {
+    "query": "Are international non-EU students allowed to work in Ireland?",
+    "expected_answer": "Yes, international non-EU students in Ireland are entitled to take up casual employment for up to 20 hours per week during term and up to 40 hours per week during scheduled holiday periods."
+  },
+  {
+    "query": "Which courses allow international students to access work rights in Ireland?",
+    "expected_answer": "Access to work is restricted to students taking courses listed on the Department of Education's Internationalization Register."
+  },
+  {
+    "query": "What is recommended before arriving in Ireland for study regarding finances?",
+    "expected_answer": "It is recommended that students do not arrive without possessing the financial resources to complete their chosen course of study as mixing employment with study is not easy."
+  },
+  {
+    "query": "What must students show at the time of Irish student visa application regarding finances?",
+    "expected_answer": "Students must show that they have sufficient resources to support themselves for the duration of their studies in Ireland; potential earnings from part-time work are not considered."
+  },
+  {
+    "query": "Does the Irish student visa allow graduates to stay after their studies?",
+    "expected_answer": "Yes, the Irish student visa permits students a 'stay back' option for graduates of many courses."
+  },
+  {
+    "query": "What services does the International Student Services Team at DBS provide?",
+    "expected_answer": "The International Student Services Team provides registration and orientation, immigration services and advice, international student letters, accommodation advice, general advice and support, social and cultural activities, and further study information."
+  },
+  {
+    "query": "Who helps international students with immigration services and advice at DBS?",
+    "expected_answer": "The International Student Services Team helps international students with immigration services and advice."
+  },
+  {
+    "query": "What kind of support related to accommodation is offered to international students at DBS?",
+    "expected_answer": "Accommodation advice is provided to international students by the International Student Services Team."
+  },
+  {
+    "query": "Does DBS offer social and cultural activities for international students?",
+    "expected_answer": "Yes, DBS offers social and cultural activities as part of the support provided by the International Student Services Team."
+  },
+  {
+    "query": "Where can international students get information about further study options at DBS?",
+    "expected_answer": "Further study information is provided by the International Student Services Team to international students."
+  },
+  {
+    "query": "How many university partnerships has DBS developed in European countries?",
+    "expected_answer": "DBS has developed over 75 university partnerships in European countries."
+  },
+  {
+    "query": "Why do European students choose DBS for study?",
+    "expected_answer": "European students choose DBS due to the quality of teaching, excellent location, wide range of sports and activities available, and the opportunity to obtain an internationally recognised qualification from an English speaking country."
+  },
+  {
+    "query": "What is ISEG and what is its relationship with DBS?",
+    "expected_answer": "ISEG is a prestigious group of seven business schools located in Paris, Lille, Strasbourg, Lyon, Toulouse, Bordeaux and Nantes. DBS has a close strategic alliance with ISEG, allowing students from ISEG to take final year BA (Hons) Marketing or Masters programmes at DBS."
+  },
+  {
+    "query": "What is the EGC network and its connection to DBS?",
+    "expected_answer": "EGC is a network of 28 reputable French Business Schools established by French Chambers of Commerce. DBS welcomes EGC students annually as part of their international study experience."
+  },
+  {
+    "query": "What is CEU Madrid known for and what programmes does it offer?",
+    "expected_answer": "CEU San Pablo University of Madrid is the oldest private university in Spain, founded in 1933. It offers BA (Hons), Double Degrees and Postgraduate programmes in Economics and Business, Communication and Humanities, Architecture, Engineering and Health Sciences."
+  },
+  {
+    "query": "What areas does IULM University in Milan specialize in?",
+    "expected_answer": "IULM University in Milan specializes in Arts, Foreign Languages, Communication, Tourism and Cultural Heritage."
+  },
+  {
+    "query": "What is the DBS Study Abroad Programme?",
+    "expected_answer": "DBS offers a Study Abroad Programme to undergraduate students from across the US, including an initial Foundation Course on Ireland and a wide range of courses in the DBS School of Business and DBS School of Arts."
+  },
+  {
+    "query": "What is the ranking of Xiamen University in China?",
+    "expected_answer": "Xiamen University is ranked 10 out of 2036 institutions in China and 318 globally."
+  },
+  {
+    "query": "What does the articulation agreement with Xiamen University allow?",
+    "expected_answer": "It allows Xiamen University graduates to continue their studies at DBS and obtain a BA (Hons) Degree award from QQI in either Accounting and Finance or Financial Services."
+  },
+  {
+    "query": "What collaboration exists between DBS and MARA in Malaysia?",
+    "expected_answer": "DBS has a transnational collaborative agreement on delivering the BA (Hons) in Accounting and Finance at KPTM in Malaysia with MARA, which has led to over 1,300 Malaysian students graduating with DBS qualifications."
+  },
+  {
+    "query": "Who is FAE Brazil and what is their partnership with DBS?",
+    "expected_answer": "FAE Brazil is a leading provider of business and management education, partnering with DBS to offer degree programmes like BA (Hons) in Business and MBA through EU Business School."
+  },
+  {
+    "query": "What is the EU Business School and what programmes does it offer through DBS?",
+    "expected_answer": "EU Business School is an internationally accredited business school with campuses in Barcelona, Geneva, Montreux, Munich and online, offering foundation, bachelor's, master's and MBA programmes in English."
+  },
+  {
+    "query": "When did DBS sign an agreement with EU Business School and what is its purpose?",
+    "expected_answer": "DBS signed an agreement with EU Business School in March 2021 to expand transnational programmes and offer DBS programmes in overseas locations, subject to QQI validation."
+  },
+  {
+    "query": "What partnership does DBS have with University of New York in Prague (UNYP)?",
+    "expected_answer": "DBS partnered with UNYP to introduce new postgraduate degrees in Prague, helping to develop international reach and reputation."
+  },
+  {
+    "query": "What are the core values that DBS staff and students live by?",
+    "expected_answer": "DBS staff and students live by core values including Respect, Integrity, Excellence, Inclusion, and Sustainability."
+  },
+  {
+    "query": "What system does DBS use for monitoring the quality of teaching and learning?",
+    "expected_answer": "DBS uses a Quality Assurance (QA) system for monitoring the quality of teaching and learning."
+  },
+  {
+    "query": "How does DBS support staff development for teaching?",
+    "expected_answer": "DBS supports staff development through induction, continuous professional development, and participation in teaching enhancement activities."
+  },
+  {
+    "query": "What approaches does DBS adopt for teaching and learning?",
+    "expected_answer": "DBS adopts student-centred and active learning approaches, including collaborative projects, case studies, and technology-enhanced learning."
+  },
+  {
+    "query": "How does DBS engage students in quality assurance processes?",
+    "expected_answer": "DBS engages students in quality assurance processes through student representation, feedback surveys, and participation in committees."
+  },
+  {
+    "query": "What awards has DBS received for teaching excellence?",
+    "expected_answer": "DBS has received awards including the Athena SWAN bronze award and recognition from the European Foundation for Management Development."
+  },
+  {
+    "query": "What is the role of the Learning and Teaching Enhancement Unit at DBS?",
+    "expected_answer": "The Learning and Teaching Enhancement Unit supports staff and students by promoting best practices in teaching and learning, and fostering innovation."
+  },
+  {
+    "query": "What kind of support does DBS provide to students with disabilities?",
+    "expected_answer": "DBS provides support such as classroom assistants, sign language interpreters, and assistive technologies within the constraints of not being eligible for the Fund for Students with Disabilities."
+  },
+  {
+    "query": "Are students at private colleges eligible for the Fund for Students with Disabilities?",
+    "expected_answer": "No, students at private colleges are not entitled to apply to the Fund for Students with Disabilities administered by the Higher Education Authority (HEA)."
+  },
+  {
+    "query": "Who administers the Fund for Students with Disabilities in Ireland?",
+    "expected_answer": "The Fund for Students with Disabilities is administered by the Higher Education Authority (HEA)."
+  },
+  {
+    "query": "What will DBS do to support students with disabilities despite funding constraints?",
+    "expected_answer": "DBS will endeavour to meet the needs of students with disabilities within the constraints of not being eligible for the Fund for Students with Disabilities."
+  },
+  {
+    "query": "What is the mandate of Education in Ireland?",
+    "expected_answer": "To promote Ireland as a quality destination for students; support international activities of Irish education institutions; act as a national point of contact; promote Irish education expertise internationally; liaise with education interests and government to remove barriers to international education development."
+  },
+  {
+    "query": "What must students do before making an Irish visa application to DBS?",
+    "expected_answer": "Students are required to pay their tuition fees in full to the College prior to making their visa application."
+  },
+  {
+    "query": "What is required of all non-EU students upon arrival in Ireland?",
+    "expected_answer": "All non-EU students must register with the Garda National Immigration Bureau (GNIB) for permission to remain in Ireland to study."
+  },
+  {
+    "query": "Who assists non-EU students with the GNIB registration process?",
+    "expected_answer": "The International Team at DBS helps non-EU students through the GNIB registration process."
+  },
+  {
+    "query": "Where can students find more information on the Irish visa process?",
+    "expected_answer": "Students can get further details from their local Irish Embassy or Consulate or from the Irish Naturalization and Immigration Service (INIS) website www.inis.gov.ie."
+  },
+  {
+    "query": "Where should applicants submit their completed application forms for DBS programmes?",
+    "expected_answer": "Applicants should submit their completed application forms online at www.dbs.ie or return them to the Postgraduate Admissions Office."
+  },
+  {
+    "query": "What documents are required for EU applicants when applying to Masters Programmes at DBS?",
+    "expected_answer": "EU applicants must provide academic transcripts (original and official English translations if applicable), proof of identification (driver's license or passport), detailed curriculum vitae, and proof of English language proficiency if applicable."
+  },
+  {
+    "query": "Are previous DBS students required to submit academic transcripts again when applying?",
+    "expected_answer": "No, applicants who have previously attended DBS do not need to provide academic transcripts again."
+  },
+  {
+    "query": "What additional documents are required for Non-EU applicants with residency in Ireland?",
+    "expected_answer": "Non-EU applicants with residency in Ireland must provide a copy of their GNIB card, work permit (if applicable), passport, and the letter issued by the Department of Justice, Equality and Law Reform explaining their documentation."
+  },
+  {
+    "query": "What are the additional requirements for Non-EU applicants applying to DBS?",
+    "expected_answer": "Non-EU applicants should provide academic transcripts, proof of identification (passport), detailed CV, proof of English proficiency, academic/business references (except for Business programmes), a copy of GNIB card, and work permit if applicable."
+  },
+  {
+    "query": "Where can applicants find further information or contact DBS admissions for queries?",
+    "expected_answer": "Applicants can contact the Postgraduate Admissions Office or the International Admissions Office at Dublin Business School via phone, fax, email, or visit www.dbs.ie for more information."
+  },
+  {
+    "query": "Who does DBS partner with to offer student accommodation?",
+    "expected_answer": "DBS partners with Mezzino Brickworks to offer student accommodation."
+  },
+  {
+    "query": "Where are the rooms offered by DBS and Mezzino Brickworks located?",
+    "expected_answer": "The rooms are located within close proximity to the college."
+  },
+  {
+    "query": "Can students book rooms at Mezzino Brickworks for just one semester?",
+    "expected_answer": "Yes, rooms at Mezzino Brickworks are available for both the full academic year and semester-based bookings."
+  },
+  {
+    "query": "How can students arrange bookings for rooms at Brickworks?",
+    "expected_answer": "Bookings must be arranged directly through the College."
+  },
+  {
+    "query": "What kind of living experience do the rooms at Brickworks offer?",
+    "expected_answer": "The rooms at Brickworks are designed for comfortable student living."
+  },
+  {
+    "query": "What is one of the on-site amenities provided by Brickworks?",
+    "expected_answer": "Brickworks provides a roof terrace with panoramic views of Dublin."
+  },
+  {
+    "query": "Where can students take a virtual tour of Brickworks?",
+    "expected_answer": "Students can take a virtual tour of Brickworks by clicking on the provided link in the accommodation information."
+  },
+  {
+    "query": "Who should students contact if they are interested in booking accommodation for the current semester?",
+    "expected_answer": "Students should contact the Student Experience Team to proceed with their booking."
+  },
+  {
+    "query": "Who can students contact to inquire about current accommodation availability at Brickworks?",
+    "expected_answer": "Students can contact the Student Experience Team to inquire about current availability."
+  },
+  {
+    "query": "Who should you contact to enquire and book homestay accommodation?",
+    "expected_answer": "You need to contact the Homestay Partners ISA directly to enquire and book homestay accommodation."
+  },
+  {
+    "query": "On what basis are homestay accommodations booked?",
+    "expected_answer": "Homestay accommodations are booked on a first come first serve basis."
+  },
+  {
+    "query": "What is the starting price for staying with a family in a homestay?",
+    "expected_answer": "Prices for staying with a family start at €230 per week for a single room with half board."
+  },
+  {
+    "query": "How much should you budget for weekly commuting costs to DBS campus?",
+    "expected_answer": "You should budget an additional €25 to €35 per week for commuting to the DBS campus."
+  },
+  {
+    "query": "What is the average monthly rent for a single room in Dublin?",
+    "expected_answer": "The average single room rent is around €800 to €1100 per month."
+  },
+  {
+    "query": "How does the location of accommodation affect rent prices?",
+    "expected_answer": "The closer to the city, the more expensive the accommodation will be."
+  },
+  {
+    "query": "Which website does DBS recommend for finding verified accommodation?",
+    "expected_answer": "DBS recommends www.spotahome.com for accommodation checked and verified by the website."
+  },
+  {
+    "query": "What discount do DBS students get on Spotahome's service fee?",
+    "expected_answer": "DBS students get a 25% discount on the one-time service fee using the promo code DBS25."
+  },
+  {
+    "query": "Where can students watch the webinar on sourcing accommodation in Dublin?",
+    "expected_answer": "Students can watch the webinar on sourcing accommodation in Dublin to get all the necessary information."
+  },
+  {
+    "query": "Where is DBS located in Dublin?",
+    "expected_answer": "DBS is conveniently located in the heart of the City Centre."
+  },
+  {
+    "query": "What makes it easy to access DBS from anywhere in Dublin?",
+    "expected_answer": "The location in the city centre makes for great ease of access no matter where you are living across the city."
+  },
+  {
+    "query": "How can students choose where to stay in Dublin?",
+    "expected_answer": "Students can choose where to stay by using the transport network or area codes as a main reference."
+  },
+  {
+    "query": "Where can students get more advice on choosing where to stay in Dublin?",
+    "expected_answer": "Students can get more advice by clicking on the provided link in the original document."
+  },
+  {
+    "query": "What short term accommodation options are available for students arriving in Dublin?",
+    "expected_answer": "There are short term accommodation options available to give students time to find more permanent accommodation after arrival."
+  },
+  {
+    "query": "Which website does DBS recommend for short term accommodation?",
+    "expected_answer": "DBS recommends www.staycity.com for short term accommodation."
+  },
+  {
+    "query": "What type of short term accommodation is www.staycity.com ideal for?",
+    "expected_answer": "It is ideal for groups of 2, 3, or 4 people."
+  },
+  {
+    "query": "What other accommodation options are available around Dublin?",
+    "expected_answer": "Dublin has many Hostels, Hotels, and AirBnBs located around the city."
+  },
+  {
+    "query": "What is a good accommodation choice for students when they first arrive at DBS?",
+    "expected_answer": "Hostels, Hotels, and AirBnBs are the best options while students get settled into life at DBS."
+  },
+  {
+    "query": "Where can students find a recording to help with sourcing accommodation in Dublin?",
+    "expected_answer": "Students can watch back the 'Webinar on sourcing accommodation in Dublin'."
+  },
+  {
+    "query": "What guide can students check for more comprehensive accommodation information?",
+    "expected_answer": "Students can check the DBS Accommodation Guide for more comprehensive information."
+  },
+  {
+    "query": "Should you make payments to a bank account that is not Irish?",
+    "expected_answer": "No, do not make any payments if the bank account given is not an Irish Bank Account."
+  },
+  {
+    "query": "Who should you contact if an accommodation source looks suspicious?",
+    "expected_answer": "You should contact a member of Student Services for advice."
+  },
+  {
+    "query": "How can you contact Student Services for accommodation advice?",
+    "expected_answer": "You can contact Student Services via the email student.services@dbs.ie."
+  },
+  {
+    "query": "What must students have before they are eligible to work in Ireland?",
+    "expected_answer": "Students must have registered with ISD and received their IRP card before they are eligible to work."
+  },
+  {
+    "query": "How many hours can a student work per week during term time under a Stamp 2 visa?",
+    "expected_answer": "Under a Stamp 2 student visa, you can work up to 20 hours a week during term time, including while doing a dissertation or waiting for results."
+  },
+  {
+    "query": "How many hours can students work during holiday periods?",
+    "expected_answer": "During holiday periods (June to September inclusive and 15 December to 15 January), students can work up to 40 hours a week."
+  },
+  {
+    "query": "How can students book their first time registration appointment with ISD?",
+    "expected_answer": "Students can book an appointment by free phoning 1800 800 630 or visiting the ISD registration website."
+  },
+  {
+    "query": "Do students need a letter from DBS for their first time ISD registration?",
+    "expected_answer": "No, students do not need a letter from the college for their first time registration."
+  },
+  {
+    "query": "How can DBS students open a bank account in Ireland?",
+    "expected_answer": "DBS students can open a bank account through MoneyJar, which offers a simple step-by-step process."
+  },
+  {
+    "query": "Do you need a bank letter to open an account with MoneyJar?",
+    "expected_answer": "No, you do not need a bank letter to open an account with MoneyJar."
+  },
+  {
+    "query": "What code do DBS students need to start their MoneyJar account application?",
+    "expected_answer": "DBS students need the 5 digit sign in code 41775 to start their application."
+  },
+  {
+    "query": "What is the attendance requirement for lectures and workshops at DBS?",
+    "expected_answer": "Full (100%) attendance is required at all lectures and workshops."
+  },
+  {
+    "query": "Why is full attendance important for DBS students?",
+    "expected_answer": "Full attendance is a condition of your student visa."
+  },
+  {
+    "query": "What may happen if a student's attendance falls below 85% at DBS?",
+    "expected_answer": "DBS may notify Immigration Services if attendance falls below 85%."
+  },
+  {
+    "query": "How many events and activities does DBS offer each term?",
+    "expected_answer": "DBS offers hundreds of events and activities each term for students to enjoy."
+  },
+  {
+    "query": "Who provides important information about events and activities during induction at DBS?",
+    "expected_answer": "The Student Experience Team provides important information during induction about events, activities, and networking opportunities."
+  },
+  {
+    "query": "What groups organize student events at DBS throughout the year?",
+    "expected_answer": "The Student Experience Team and Student Union provide various student events throughout the year."
+  },
+  {
+    "query": "What is the 'summer series' at DBS?",
+    "expected_answer": "The summer series is a recently launched set of events at DBS; ticket information is available on Eventbrite."
+  },
+  {
+    "query": "How can students find out about Clubs and Societies at DBS?",
+    "expected_answer": "Students can attend Clubs and Societies Day to learn about available clubs and societies at DBS."
+  },
+  {
+    "query": "What should a student do if they want to start a new Club or Society at DBS?",
+    "expected_answer": "Students can email student.services@dbs.ie to discuss options with the Clubs and Society Officer."
+  },
+  {
+    "query": "Who can help you with disability support at DBS?",
+    "expected_answer": "The Disabilities and Inclusion Officer can help with disability support at DBS."
+  },
+  {
+    "query": "How can you contact the Disabilities and Inclusion Officer at DBS?",
+    "expected_answer": "You can contact the Disabilities and Inclusion Officer via the email student.services@dbs.ie."
+  },
+  {
+    "query": "What happens after you contact the Disabilities and Inclusion Officer?",
+    "expected_answer": "They will arrange to meet with you and explain the support available."
+  },
+  {
+    "query": "How many types of clubs and societies are available at DBS?",
+    "expected_answer": "There are four types: Academic and Professional, Cultural and Ethnic, Hobby and Interest, and Sports and Recreation."
+  },
+  {
+    "query": "Can you name some examples of Academic and Professional clubs at DBS?",
+    "expected_answer": "Examples include business, data analytics, law, event management, sustainability, and psychology clubs."
+  },
+  {
+    "query": "Are there any Cultural and Ethnic societies at DBS?",
+    "expected_answer": "Yes, examples include the DESI society, Italian Society, International student society, and Malaysian society."
+  },
+  {
+    "query": "What types of sports clubs does DBS offer?",
+    "expected_answer": "Sports clubs include football, basketball, badminton, ultimate frisbee, tennis, sea swimming, volleyball, rock climbing, martial arts, and yoga."
+  },
+  {
+    "query": "Is there a cost to join DBS clubs and societies?",
+    "expected_answer": "No, all clubs and societies are free to join."
+  },
+  {
+    "query": "How can students express interest in joining a club or society at DBS?",
+    "expected_answer": "During inductions, students receive a Clubs & Societies Sign-Up form to show their interest."
+  },
+  {
+    "query": "Where can students find information and tickets for DBS events?",
+    "expected_answer": "Information and tickets can be found on Eventbrite."
+  },
+  {
+    "query": "What are the social media platforms for the DBS Student Experience?",
+    "expected_answer": "Instagram and TikTok: @dbsstudentexperience, Facebook: DBS Student Experience, Spotify: DBS Student Experience Podcast."
+  },
+  {
+    "query": "What services does the Careers Hub offer to DBS students?",
+    "expected_answer": "The Careers Hub offers free career support workshops, podcasts with industry professionals, and employer events."
+  },
+  {
+    "query": "What advice is given if English is not your first language and you have difficulty communicating symptoms?",
+    "expected_answer": "Consider having a local friend or someone who speaks English accompany you to the medical facility."
+  },
+  {
+    "query": "What is the recommended monthly budget for a DBS student living in Dublin?",
+    "expected_answer": "It is recommended to budget a minimum of €2,500 per month to cover basic living expenses."
+  },
+  {
+    "query": "Should students rely on finding a job to fund their studies in Dublin?",
+    "expected_answer": "No, students should not rely on finding a job to fund their studies and should ensure they have enough funds before arriving in Ireland."
+  },
+  {
+    "query": "Why is understanding the cost of living important for new DBS students?",
+    "expected_answer": "Understanding the cost of living helps ensure a smooth transition and a fulfilling student experience."
+  },
+  {
+    "query": "What number should you dial in Ireland in case of a medical emergency?",
+    "expected_answer": "Dial 999 for emergency services in Ireland or 112 for emergency services in any European country."
+  },
+  {
+    "query": "Where should you go for minor illnesses or common ailments in Ireland?",
+    "expected_answer": "You can visit a pharmacy (chemist) for advice and over-the-counter medications."
+  },
+  {
+    "query": "What is the phone number for a free medical consultation in Dublin?",
+    "expected_answer": "Call (01 6790754)."
+  },
+  {
+    "query": "Which medical centre has DBS partnered with for student GP services?",
+    "expected_answer": "DBS has partnered with Dame Street Medical."
+  },
+  {
+    "query": "How can students register with Dame Street Medical?",
+    "expected_answer": "Simply book an appointment to see one of their doctors."
+  },
+  {
+    "query": "What is the Irish Residence Permit (IRP)?",
+    "expected_answer": "The Irish Residence Permit is a registration document for non-EU/EEA/UK/Swiss students."
+  },
+  {
+    "query": "Who needs to register for an Irish Residence Permit (IRP)?",
+    "expected_answer": "Non-EU/EEA/UK/Swiss students."
+  },
+  {
+    "query": "How much does an Irish Residence Permit cost per year?",
+    "expected_answer": "€300 per year."
+  },
+  {
+    "query": "Which websites can I use to check cost of living in Ireland?",
+    "expected_answer": "You can use websites like Numbeo and Daft.ie to understand realistic living costs."
+  },
+  {
+    "query": "How can I manage my finances more effectively while studying in Ireland?",
+    "expected_answer": "You can use budgeting apps, have an Irish bank account, and plan your spending. Opening a digital current account before travel can help."
+  },
+  {
+    "query": "Can students on a Stamp 2 visa work in Ireland?",
+    "expected_answer": "Yes, they can work 20 hours a week during term and 40 hours a week during holidays."
+  },
+  {
+    "query": "What is the minimum wage in Ireland?",
+    "expected_answer": "The minimum wage in Ireland is €13.50 per hour."
+  },
+  {
+    "query": "Do non-EU/EEA/UK/Swiss students need health insurance in Ireland?",
+    "expected_answer": "Yes, they are required to have health insurance costing between €160 and €670 per year."
+  },
+  {
+    "query": "How can I reduce my food expenses in Ireland?",
+    "expected_answer": "Cooking at home can significantly reduce costs compared to dining out or takeaway meals."
+  },
+  {
+    "query": "What is a typical rental deposit in Ireland?",
+    "expected_answer": "Usually one month's rent, plus potential utility setup fees."
+  },
+  {
+    "query": "What is the cost range for purpose-built student accommodation in Ireland?",
+    "expected_answer": "It costs between €275 and €450 per week."
+  }
+]

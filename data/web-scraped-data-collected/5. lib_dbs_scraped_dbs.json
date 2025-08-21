@@ -1,0 +1,154 @@
+{
+    "intents": [
+        {
+            "tag": "home",
+            "patterns": [
+                "Monday to Friday 9:00am - 5:00pmSaturday 9:00 - 5:00pmAll HOURS",
+                "Monday to Friday 9:00am - 5:00pmSaturday 9:00 - 5:00pm",
+                "Have a problem?Reach out to the Library and IT.LOG A TICKET",
+                "Have a problem?Reach out to the Library and IT.",
+                "All the information you need abouthow to use the Library and more.LEARN MORE"
+            ],
+            "responses": [
+                "Monday to Friday 9:00am - 5:00pmSaturday 9:00 - 5:00pmAll HOURS",
+                "Monday to Friday 9:00am - 5:00pmSaturday 9:00 - 5:00pm"
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "CONTACT US+353 (0)1-4170660Helpdesk",
+                "DBS Library and Academic Hub2nd Floor13/14 Aungier StreetDublin 2, IrelandD02 WC04",
+                "To use this platform, the system writes one or more cookies in your browser. These cookies are not shared with any third parties. In addition, your IP address and browser information is stored in server logs and used to generate anonymized usage statistics. Your institution uses these statistics to gauge the use of library content, and the information is not shared with any third parties."
+            ],
+            "responses": [
+                "CONTACT US+353 (0)1-4170660Helpdesk",
+                "DBS Library and Academic Hub2nd Floor13/14 Aungier StreetDublin 2, IrelandD02 WC04"
+            ]
+        },
+        {
+            "tag": "libraryessentials",
+            "patterns": [
+                "Twitter:@DBSLibraryTwits",
+                "Instagram:@dbs.library",
+                "In this guide, you will find key information for all Library users. Library staff are available in person and online to help with any of your queries.",
+                "DBS Library and Academic Hub is an innovative and modern information and library service staffed by professionally qualified library personnel.The Library service occupies the 2nd floor of the Aungier Street building. In addition to quiet study space and extensive opening hours, the Library is fully Wi-Fi enabled with open seating\u00a0in our reading room.\u00a0We also have an extensive online library comprising online databases and e-books which can be accessed 24 hours a day on or off campus.As librarians we know that navigating today\u2019s information world can be confusing and intimidating, so we offer a programme of classes on searching for information, essay writing and more that are tailored to your needs, including one to one support for information seeking, essay writing and dissertation preparation.\u00a0Our approachable and friendly staff are always on hand to answer any questions that you have throughout your studies.",
+                "A post shared by DBS Library (@dbs.library)"
+            ],
+            "responses": [
+                "Twitter:@DBSLibraryTwits",
+                "Instagram:@dbs.library"
+            ]
+        },
+        {
+            "tag": "calendar",
+            "patterns": [
+                "CONTACT US+353 (0)1-4170660Helpdesk",
+                "DBS Library and Academic Hub2nd Floor13/14 Aungier StreetDublin 2, IrelandD02 WC04",
+                "To use this platform, the system writes one or more cookies in your browser. These cookies are not shared with any third parties. In addition, your IP address and browser information is stored in server logs and used to generate anonymized usage statistics. Your institution uses these statistics to gauge the use of library content, and the information is not shared with any third parties."
+            ],
+            "responses": [
+                "CONTACT US+353 (0)1-4170660Helpdesk",
+                "DBS Library and Academic Hub2nd Floor13/14 Aungier StreetDublin 2, IrelandD02 WC04"
+            ]
+        },
+        {
+            "tag": "faculty",
+            "patterns": [
+                "Twitter:@DBSLibraryTwits",
+                "Instagram:@dbs.library",
+                "This guide contains all important information that faculty need to know about DBS Library.",
+                "DBS Library works with teaching departments in the college to make sure your teaching and research needs are met. If you have any questions or would like more information please do not hesitate to contact us",
+                "Resources for Students"
+            ],
+            "responses": [
+                "Twitter:@DBSLibraryTwits",
+                "Instagram:@dbs.library"
+            ]
+        },
+        {
+            "tag": "faculty_finding-resources",
+            "patterns": [
+                "Through the library, you\u00a0can access a vast collection of books, ebooks, databases, case studies, as well as past exam papers.See information on each of them below.",
+                "How do I login?You can use your Moodle login to access library resources and databases.",
+                "BooksDBS Library has a print collection of over 40,000 items covering all subject areas.\u00a0 The print collection is comprised of a Reference Collection and a Main Lending Collection. Loan types for books in the Main Lending Collection include 3-day loan, 1-week loan and 2-week loan.",
+                "To renew books via your library account please clickhere.Your can log in your using Moodle login details.",
+                "eBooksThe Library provides access to over 30,000 eBook titles across a number of platforms. This collection is continually expanding."
+            ],
+            "responses": [
+                "Through the library, you\u00a0can access a vast collection of books, ebooks, databases, case studies, as well as past exam papers.See information on each of them below.",
+                "How do I login?You can use your Moodle login to access library resources and databases."
+            ]
+        },
+        {
+            "tag": "faculty_teaching-preparation",
+            "patterns": [
+                "Reading lists are available in the Module Reading List link in the Module Information block as shown below. This will link to the online reading list for that particular module.",
+                "The online reading lists for your modules may contain books and online resources such as eBooks, journal articles, journal titles, websites, etc.",
+                "Clicking on a book title on an online reading list will show real-time availability and location in the library (classmark).",
+                "Any e-resource links will link directly to eBooks and other online resources when these are available.",
+                "For more information on developing or updating a reading list please consult theLibrary's guides for faculty"
+            ],
+            "responses": [
+                "Reading lists are available in the Module Reading List link in the Module Information block as shown below. This will link to the online reading list for that particular module.",
+                "The online reading lists for your modules may contain books and online resources such as eBooks, journal articles, journal titles, websites, etc."
+            ]
+        },
+        {
+            "tag": "faculty_classroom-support",
+            "patterns": [
+                "Besides offering\u00a0resources and helping you prepare for teaching, the library also frequently runs workshops to support faculty and students.",
+                "The Library workshops aim to ensure that all DBS students will have necessary information literacy skills to succeed in their academic work, in the workplace and beyond.",
+                "The topics covered in our workshops include:",
+                "Thelibrary workshop pageprovides full details of the workshops the library offers.",
+                "Research shows that there is a positive correlation between these types of information literacy instruction and student success (ACRL,2017)."
+            ],
+            "responses": [
+                "Besides offering\u00a0resources and helping you prepare for teaching, the library also frequently runs workshops to support faculty and students.",
+                "The Library workshops aim to ensure that all DBS students will have necessary information literacy skills to succeed in their academic work, in the workplace and beyond."
+            ]
+        },
+        {
+            "tag": "faculty_faculty-research",
+            "patterns": [
+                "These library guides have been created by our IL and Research Team in support of student and faculty research activities:",
+                "The DBS Applied Research and Theory Journal is\u00a0an international open access journal that accepts submissions from researchers, students, and practitioners both within the DBS community and externally from all disciplines.",
+                "Check out ourDBS Library Press Guideto learn more about how to get your work published.",
+                "If you would like to see all issues of the journal, visit theDBS Applied Research Journal website.",
+                "TheDBS Institutional Repository(eSource) hosts articles, final-year projects, theses, conference papers, book chapters and more, all produced by DBS staff and students. Having your work available and easily accessible online is a great way to elevate your academic and professional profile."
+            ],
+            "responses": [
+                "These library guides have been created by our IL and Research Team in support of student and faculty research activities:",
+                "The DBS Applied Research and Theory Journal is\u00a0an international open access journal that accepts submissions from researchers, students, and practitioners both within the DBS community and externally from all disciplines."
+            ]
+        },
+        {
+            "tag": "faculty_learning-unit",
+            "patterns": [
+                "The Learning Unit (LU)at DBS, staffed by Bernadette Higgins (Senior Educational Developer) and Sylwia Plucisz (Educational Developer)\u00a0plays a pivotal role in supporting academic management and advancing teaching and learning. Our mission is to promote excellence, foster innovation, and enhance collaboration across all areas of education.",
+                "Our core objectives include providing Continuous Professional Development (CPD) for faculty helping them to design and implement evidence-based, pedagogically sound learning, teaching and assessment strategies.",
+                "LU primarily supports lecturing faculty but also offers resources and training to other learner support staff. We host drop-in \"Ask Me Anything\" (AMA) sessions for personalised advice, alongside a range of self-service resources such as video tutorials, CPD lessons, and instructional guides. We also guide new faculty members through all DBS Learning Technologies and support their journey towards earning professional badges by completing DBS Module Pathway OnDemand lessons.",
+                "LU works alongside other departments in DBS such as SESU, Exams, Academic Operations, Registrar, Library, IT, Content Production and Student Experience to ensure that faculty training is informed by all areas of the DBS Learning Ecosystem.",
+                "Beyond internal support, LU offers faculty the chance to pursue the Advance HE Fellowship in Teaching and Learning in Higher Education. We also promote external development opportunities, such as AHEAD UDL badges and other professional HE badges provided by the National Forum."
+            ],
+            "responses": [
+                "The Learning Unit (LU)at DBS, staffed by Bernadette Higgins (Senior Educational Developer) and Sylwia Plucisz (Educational Developer)\u00a0plays a pivotal role in supporting academic management and advancing teaching and learning. Our mission is to promote excellence, foster innovation, and enhance collaboration across all areas of education.",
+                "Our core objectives include providing Continuous Professional Development (CPD) for faculty helping them to design and implement evidence-based, pedagogically sound learning, teaching and assessment strategies."
+            ]
+        },
+        {
+            "tag": "homepage",
+            "patterns": [
+                "Use our online tool to book study rooms in the library.",
+                "Book a 1-1 Consultation",
+                "Meet one on one with one of our experts and get help with your research, assignment planning, and academic writing.",
+                "Upcoming Library and Academic Support Workshops",
+                "Time Zone:\n    UK, Ireland, Lisbon Time\n            (change)"
+            ],
+            "responses": [
+                "Use our online tool to book study rooms in the library.",
+                "Book a 1-1 Consultation"
+            ]
+        }
+    ]
+}

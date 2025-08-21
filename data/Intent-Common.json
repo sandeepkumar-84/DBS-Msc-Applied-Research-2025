@@ -1,0 +1,242 @@
+{
+   "intents":[
+ {
+   "tag": "greeting",
+   "patterns": [
+     "Hey!",
+     "Howdy!",
+     "How’s it going?",
+      "Hi",
+      "How are you?",
+      "Is anyone there?",
+      "Hello",
+      "Good day",
+      "What's up",
+      "how are ya",
+      "heyy",
+      "whatsup",
+      "Bonjour",
+      "Hallo",
+      "Salve",
+      "Namaste",
+      "Hej",
+      "Merhaba",
+      "Shalom",
+      "Goddag",
+      "Hola",
+      "Jambo",
+      "Habari",
+      "Selam",
+      "??? ??? ??"
+   ],
+   "responses": [
+      "Hello!",
+      "Hello! How can I assist you today?",
+      "Good day! How may I assist you?",
+      "Good to see you again!",
+      "Hi there, how can I help?",
+      "Hello! Let me know how I can support you today."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "goodbye",
+   "patterns": [
+      "Bye",
+      "gtg",
+      "ttyl",
+      "cya",
+      "Goodbye",
+      "bye bye",
+      "see you",      
+      "See you later", 
+      "talk to you later",     
+      "I am Leaving",      
+      "Have a Good day",
+      "i got to go"      
+   ],
+   "responses": [
+      "Thank you for using DBS Buddy Bot. Have a good day!",
+      "Goodbye!",
+      "Take care! Feel free to reach out anytime.",
+      "Talk to you later",
+      "Sad to see you go :(",
+      "Come back soon",
+      "Take care! Let’s chat again soon!",
+      "Catch you later! Stay awesome!"
+   ],
+   "context_set": ""
+}, 
+
+{
+   "tag": "number",
+   "patterns": [
+      "call",
+      "Phone number",
+      "phone number",
+      "phone no",
+      "contact",
+      "contact info",
+      "Contact number?",
+      "What is your contact no",
+      "Can i get your phone number",
+      "how to contact college",
+      "College phone no?",
+      "more info",
+      "telephone number",
+      "college number",
+      "college telephone number",
+      "how to call you",      
+      "how can i contact you",      
+      "how can i call you"      
+   ],
+   "responses": [
+      "You can reach us at: T: + 353 (0) 1 4177500 E: admissions@dbs.ie"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "location",
+   "patterns": [
+      "address",
+      "location",
+      "where is college",
+      "where is the college located",
+      "what is the address of college",
+      "college is located at",
+      "location of college",
+      "where is college located",
+      "address of college",      
+      "college location",
+      "college address",
+      "wheres the college",
+      "how to reach college",
+      "how can I reach college",
+      "college address",
+      "whats is the college address"        
+   ],
+   "responses": [
+      "A mere two minute walk from St. Stephens Green, the Luas and all main bus routes, DBS is truly in the heart of Dublin city. Our educational sites in the prime city centre locations of Aungier Street, George's Street and Balfe Street are all within a few minutes walking distance of each other and provide students with access to all of the infrastructure capabilities of a vibrant modern capital city. Buses servicing Aungier Street directly are 9, 16, 65, 65b, 68, 68a or 83. All Bus, DART, Luas and Rail routes service the city centre with terminals close to the College Dublin Business School, 13/14 Aungier Street, Dublin 2, D02 WC04,Ireland Link: <a target=\"_blank\" href=\"https://maps.app.goo.gl/HPA7QhGn8BguzwoPA\"> here</a>"
+   ],
+   "context_set": ""
+},
+ 
+ {
+   "tag": "random",
+   "patterns": [
+      "I love you",
+      "Will you marry me",
+      "Do you love me"
+   ],
+   "responses": [
+      "I am not program for this, please ask appropriate query"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "swear",
+   "patterns": [
+      "fuck",
+      "bitch",
+      "shut up",
+      "hell",
+      "stupid",
+      "idiot",
+      "dumb ass",
+      "asshole",
+      "fucker"
+   ],
+   "responses": [
+      "I'm here to assist, but let's keep it friendly!",
+      "please use appropriate language",
+      "Maintaining decency would be appreciated"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "salutaion",
+   "patterns": [
+      "Thank You",
+      "nice work",
+      "okk",
+      "okie",      
+      "well done",
+      "good job",
+      "thanks for the help",      
+      "its ok",
+      "Thanks",
+      "Good work",
+      "k",
+      "ok",
+      "okay"
+   ],
+   "responses": [
+      "I am glad I helped you",
+      "welcome, anything else i can assist you with?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "task",
+   "patterns": [
+      "things you can do",
+      "what can you do",
+      "what can u do for me",
+      "what are the thing you can do",
+      "how u can help me",
+      "why i should use you"
+   ],
+   "responses": [
+    "You can ask me questions regarding college, and i will try to answer them",
+      "I can answer to low-intermediate questions regarding college"      
+   ],
+   "context_set": ""
+},
+{
+   "tag": "creator",
+   "patterns": [
+      "developers",
+      "creators",
+      "your developers",
+      "who are your developers",
+      "your creators",
+      "who created you",
+      "what is the name of your developers",
+      "what is the name of your creators",
+      "what is the name of the developers",
+      "what is the name of the creators",
+      "who created you",
+      "you are made by",
+      "you are made by whom",      
+      "who made you",
+      "who designed you"
+   ],
+   "responses": [
+      "DBS Student"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "name",
+   "patterns": [
+      "what is your name",
+      "your name",
+      "name",
+      "do you have a name",
+      "what are you",
+      "what are you called",
+      "who is this",
+      "what should I call you",
+      "whats your name?", 
+      "who am i taking to",     
+      "who are you",      
+      "what am i chatting to",      
+      "what are you"
+   ],
+   "responses": [
+      "I am a Chatbot."
+   ],
+   "context_set": ""
+}
+]
+}
