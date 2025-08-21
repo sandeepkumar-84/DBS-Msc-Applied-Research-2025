@@ -1,7 +1,7 @@
 from tkinter import *
 from Model_Response_Predictor import provide_res_to_ui
 from Voice_IO_Logic import listen
-import threading
+
 
 DBS_BOT_NAME = "DBS Bot"
 
