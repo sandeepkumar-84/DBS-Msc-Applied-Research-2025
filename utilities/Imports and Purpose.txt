@@ -1,0 +1,40 @@
+'''This file lists the imports used in the project along with their source packages and purposes.'''
+
+'''
+Import Name	                    Source Package	        Purpose
+json	                        Standard Library	For reading/writing JSON files
+random	                        Standard Library	For random number generation and shuffling
+os	                            Standard Library	For file system and path operations
+time	                        Standard Library	For measuring execution time and delays
+sys	                            Standard Library	For system-level operations
+shutil	                        Standard Library	For file operations like copy/move/delete
+numpy as np	                    NumPy	            For numerical operations and array handling
+torch	                        PyTorch	            Core deep learning framework
+torch.nn as nn	                PyTorch	            For defining neural network layers
+torch.nn.functional as F	    PyTorch	            For activation functions and other operations
+from collections import Counter	Standard Library	For counting occurrences of elements
+from nltk.tokenize import word_tokenize	NLTK	For tokenizing text into words
+from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction	NLTK	For calculating BLEU score in NLP evaluation
+import nltk	NLTK	            Natural language toolkit; downloading punkt for tokenization
+from sentence_transformers import SentenceTransformer	Sentence-Transformers	For creating sentence embeddings
+from sklearn.linear_model import LogisticRegression	Scikit-learn	For machine learning classification
+from sklearn.metrics.pairwise import cosine_similarity	Scikit-learn	For computing similarity between embeddings
+from sklearn.metrics import accuracy_score	Scikit-learn	To calculate model accuracy
+from bert_score import score as bert_score	BERTScore	For semantic similarity evaluation
+import matplotlib.pyplot as plt	Matplotlib	For plotting graphs and visualizations
+import matplotlib	Matplotlib	Core plotting library
+from wordcloud import WordCloud	WordCloud	For generating word cloud visualizations
+import requests	Requests	For HTTP requests and downloading files from URLs
+from huggingface_hub import snapshot_download, hf_hub_download, login, HfApi, HfFolder, Repository	Hugging Face Hub	For downloading, uploading, and managing models/datasets
+from transformers import T5ForConditionalGeneration, T5Tokenizer, AutoTokenizer, AutoModelForCausalLM, pipeline	Transformers	For pretrained NLP model loading and generation
+from transformers.modeling_utils import PreTrainedModel	Transformers	Base class for pretrained models
+from tkinter import *	Tkinter	For building the chatbot GUI
+from PIL import Image, ImageTk	Pillow	For handling images in GUI
+import speech_recognition as sr	SpeechRecognition	For converting user speech to text
+import pyttsx3	pyttsx3	For text-to-speech conversion
+from Model_Response_Predictor import provide_res_to_ui	Local Module	Provides response generation from chatbot models
+from Voice_IO_Logic import listen	Local Module	Handles voice input logic for chatbot
+from docling.document_converter import DocumentConverter	Docling	For PDF/Docx to text conversion
+from docling_core.transforms.serializer.markdown import MarkdownDocSerializer	Docling-core	For converting text to markdown format
+beautifulsoup4	BeautifulSoup4	For web scraping and HTML parsing
+'''
