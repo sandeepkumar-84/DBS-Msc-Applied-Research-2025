@@ -1,6 +1,7 @@
 from tkinter import *
 from Model_Response_Predictor import provide_res_to_ui
 from Voice_IO_Logic import listen
+from PIL import Image, ImageTk
 
 
 DBS_BOT_NAME = "DBS Bot"
@@ -13,9 +14,14 @@ FOOTER_BACK_COLOR = "#F6F8F9"
 BODY_BACK_COL = "#FCFCFC"
 
 
+
+
 class DBSResearchChatbotApp:    
     def __init__(self):
         self.window = Tk()
+        logo_image = Image.open("/content/DBS-Chat.png")  
+        logo_image = logo_image.resize((240, 30), Image.Resampling.LANCZOS)
+        self.logo_photo = ImageTk.PhotoImage(logo_image)
         self._setup_main_chat_window()
 
     def run_chatbot_ui(self):
@@ -24,9 +30,9 @@ class DBSResearchChatbotApp:
     def _setup_main_chat_window(self):
         self.window.title("DBS Research Chatbot")
         self.window.resizable(width=False, height=False)
-        self.window.configure(width=460, height=500, bg=BODY_BACK_COL)
+        self.window.configure(width=460, height=500, bg="#E6F4FB")
 
-        lbl_welcome = Label(self.window, bg=BODY_BACK_COL, fg = FONT_COLOR_VAR, text="Hi there! Welcome to DBS’s chatbot assistant", font=FONT_FAMILY_BOLD, pady=10)
+        lbl_welcome = Label(self.window,image=self.logo_photo,compound=LEFT, bg="#007BB5", fg = FONT_COLOR_VAR, text="", font=FONT_FAMILY_BOLD, pady=10)
         lbl_welcome.place(relwidth=1)
 
         lbl_line = Label(self.window, width=430, bg = FOOTER_BACK_COLOR)
@@ -48,7 +54,7 @@ class DBSResearchChatbotApp:
         self.txt_entry.focus()
         self.txt_entry.bind("<Return>",self._on_enter_pressed_event)
 
-        btn_send = Button(lbl_footer, text="Send", font=FONT_FAMILY_BOLD, width=10, bg=FOOTER_BACK_COLOR, 
+        btn_send = Button(lbl_footer, text="Send", font=FONT_FAMILY_BOLD, width=10, bg="#0098DC", fg="white",
                              command=lambda:self._on_enter_pressed_event(None))
         btn_send.place(relx=0.63, rely=0.007, relheight=0.05, relwidth=0.16)
 
