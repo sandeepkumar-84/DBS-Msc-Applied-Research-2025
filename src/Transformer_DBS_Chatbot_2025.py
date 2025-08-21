@@ -46,19 +46,7 @@ print("all necessary variables are declared")
 os.makedirs(local_save_path, exist_ok=True)
 os.makedirs(local_hf_save_path, exist_ok=True)
 
-# check if the local research path exists, if not create it
-if not os.path.exists(local_research_path):
-    print(f"creating local research path at {local_research_path}") 
-else:
-    print(f"local research path already exists at {local_research_path}")
-    #list files at the local research path
-    print("Files in local research path:")
-    for file_name in os.listdir(local_research_path):
-        print(file_name)
-    # if no files are present, then stop the code flow
-if not os.listdir(local_research_path):
-    print(f"no files found in {local_research_path}. Please add files to continue.")
-    sys.exit(1)
+
 
 print("innitial set is completed")
 
@@ -67,7 +55,29 @@ github_urls_training = [
     "https://raw.githubusercontent.com/sandeepkumar-84/DBS/refs/heads/dbs_applied_research_project_v1/AppliedResearch/Working%20v1/Transformer%20Version/Transformer_Training_DataSet-2.txt"
 ]
 
+training_path_files = [
+    "/content/Research-Chatbot/Transformer_Training_DataSet-1.txt",
+    "/content/Research-Chatbot/Transformer_Training_DataSet-2.txt",                                                       "/content/Research-Chatbot/Transformer_Test_DataSet.json",
+]
+
 loaded = False
+corpus_dbs = []
+folder_path_training = local_research_path
+
+def load_local_files(training_path_files=None):
+    success = False
+    for file_name in training_path_files:
+            try:
+                with open(file_name, 'r', encoding='utf-8', errors='ignore') as f:
+                    content = f.read()
+                    paras = [para.strip() for para in content.split('\n') if len(para.strip()) > 50]
+                    corpus_dbs.extend(paras)
+                    success = True
+                    print(f"Loaded {len(paras)} paragraphs from Local: {file_name}")
+            except Exception as e:
+                print(f"error reading {file_name}: {e}")
+    return success
+
 
 def load_from_github(urls):
     for url in urls:
@@ -83,26 +93,10 @@ def load_from_github(urls):
         except Exception as e:
             print(f"Error reading from GitHub file {url}: {e}")
 
-corpus_dbs = []
-folder_path_training = local_research_path
-
-
-def get_from_local():
-  for file_name in os.listdir(folder_path_training):
-      file_path = os.path.join(folder_path_training, file_name)
-      try:
-          with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
-              content = f.read()
-              corpus_dbs.extend([para.strip() for para in content.split('\n') if len(para.strip()) > 50])
-              loaded = True
-              print(f"Loaded {len(corpus_dbs)} paragraphs from Local: {file_path}")
-      except Exception as e:
-          print(f"Error reading {file_path}: {e}")
-
-get_from_local()
+loaded = load_local_files(training_path_files)
 
 if not loaded:
-    print("get data from github if not locally present..")
+    print("getting data from github ...................")
     load_from_github(github_urls_training)
 
 print(f"Total paragraphs loaded into corpus_dbs: {len(corpus_dbs)}")
@@ -247,7 +241,7 @@ def start_chatbot(top_k=3):
         print("-" * 60)
 
 
-#start_chatbot()
+start_chatbot()
 
 '''
 model_id_tinyllm_dbs = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
@@ -319,10 +313,6 @@ try:
     if not load_test_local:
         test_set = lod_test_set_from_github(github_urls_test)
     print("Test set loaded successfully.")
-    for item in test_set:
-        print(f"Query: {item.get('query', '')}")
-        print(f"Expected Answer: {item.get('expected_answer', '')}")
-        print("-" * 50)
 except Exception as e:
     print(f"Error: {e}")
 

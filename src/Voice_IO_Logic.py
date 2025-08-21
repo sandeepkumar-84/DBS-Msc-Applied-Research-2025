@@ -1,12 +1,18 @@
 import speech_recognition as sr
 import pyttsx3
+import threading
 
 engine = pyttsx3.init()
 
+'''
 def speak(text):
+    engine = pyttsx3.init() 
     engine.say(text)
     engine.runAndWait()
-
+    engine.stop()
+    del engine
+'''
+    
 def listen():
     r = sr.Recognizer()
     with sr.Microphone() as source:

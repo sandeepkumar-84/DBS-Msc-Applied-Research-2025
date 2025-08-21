@@ -1,8 +1,9 @@
 from tkinter import *
-from PredictResponse import provide_res_to_ui
-from VoiceBasedLogic import listen
+from Model_Response_Predictor import provide_res_to_ui
+from Voice_IO_Logic import listen
+import threading
 
-DBS_BOT_NAME = "DBS Research Chatbot"
+DBS_BOT_NAME = "DBS Bot"
 
 FONT_FAMILY = "Helvetica 14" 
 FONT_FAMILY_BOLD = "Poppins 13 bold"
@@ -64,21 +65,33 @@ class DBSResearchChatbotApp:
             return
 
         self.txt_entry.delete(0,END)
+
         msg1 = f"{sender}:{msg}\n\n"
         self.txt_dbs_widget.configure(state=NORMAL)
         self.txt_dbs_widget.insert(END,msg1)
         self.txt_dbs_widget.configure(state=DISABLED)
-
-        msg2 = f"{DBS_BOT_NAME}:{provide_res_to_ui(msg)}\n\n"
+        self.txt_dbs_widget.see(END)
+        bot_response = provide_res_to_ui(msg)
+        msg2 = f"{DBS_BOT_NAME}:{bot_response}\n\n"
         #msg2 = f"{DBS_BOT_NAME}\n"
         self.txt_dbs_widget.configure(state=NORMAL)
         self.txt_dbs_widget.insert(END,msg2)
         self.txt_dbs_widget.configure(state=DISABLED)        
 
-        self.txt_dbs_widget.see(END)
-
+        self.txt_dbs_widget.see(END)    
+       
     def voice_input(self):
+        self.txt_dbs_widget.configure(state=NORMAL)
+        self.txt_dbs_widget.insert(END, f"\U0001F399 Listening...\n")
+        self.txt_dbs_widget.configure(state=DISABLED)
+        self.txt_dbs_widget.see(END)    
+        self.window.update_idletasks() 
+
         query_listen = listen()
+
+        self.txt_dbs_widget.configure(state=NORMAL)
+        self.txt_dbs_widget.delete("end-2l", "end-1l")  # delete last line (listening...)
+        self.txt_dbs_widget.configure(state=DISABLED)        
         if query_listen:
             self._insert_message_event(query_listen, "You")
 #app execution code. 

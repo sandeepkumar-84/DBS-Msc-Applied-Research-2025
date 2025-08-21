@@ -9,7 +9,7 @@ from transformers import T5ForConditionalGeneration, T5Tokenizer
 
 nltk.download('punkt')
 
-from IntentCommonResponse import detect_intent_and_respond
+from Intent_Rule_Responses import detect_intent_and_respond
 
 local_save_path = "/content/Saved_Model_Local"
 mode_to_run = 'local'
@@ -82,6 +82,5 @@ def provide_res_to_ui(text):
         answer = generate_answer(query, passages)    
     return answer
 
-#print(chat_pre_response(chatbot_pre,"location"))
-#query_to_test = "student population of DBS?"
+query_to_test = "student population of DBS?"
 #print("response: ", provide_res_to_ui(query_to_test))
