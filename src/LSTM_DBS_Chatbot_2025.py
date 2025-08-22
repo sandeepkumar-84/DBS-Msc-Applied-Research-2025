@@ -23,12 +23,48 @@ import nltk
 nltk.download('punkt')
 nltk.download('punkt_tab')
 
+# local file path where training and testing data is present
+local_research_path = "/content/Research-Chatbot"
 
+# create the directory if it do not exist
+os.makedirs(local_research_path, exist_ok=True)
+
+# exact path defined
+training_path_files = [   
+    os.path.join(local_research_path, "LSTM_Training_DataSet.json")
+]
+testing_path_files = [   
+    os.path.join(local_research_path, "LSTM_Testing_DataSet.json")
+]
+
+# github path defined
 github_url_training  = "https://raw.githubusercontent.com/sandeepkumar-84/DBS/dbs_applied_research_project_v1/AppliedResearch/Working%20v1/LSTM%20Version/Training_set_v2.json"
-folder_path_training = "/content/Research-Chatbot/Training"
+
 qa_pairs_combined_raw = []
 load_flag = False
 
+# function to load the training data from local files
+def load_local_files(file_list):
+    global load_flag
+    for file_name in file_list:
+        if file_name.endswith('.json'):
+            try:
+                with open(file_name, 'r', encoding='utf-8', errors='ignore') as f:
+                    qa_list = json.load(f)
+                    if isinstance(qa_list, list):
+                        qa_pairs_combined_raw.extend(qa_list)
+                        print(f"QA pair loaded {len(qa_list)} from file: {file_name}")
+                        load_flag = True
+                    else:
+                        print(f"skipping {file_name}: not a list of QA pairs.")
+            except json.JSONDecodeError:
+                print(f"error decoding json in file: {file_name}")
+            except Exception as e:
+                print(f"error reading {file_name}: {e}")
+        else:
+            print(f"skipping non-JSON file: {file_name}")
+
+# function to load the training data from github if local file is not found
 def load_github_file(file_url):
     try:
         response = requests.get(file_url)
@@ -46,27 +82,8 @@ def load_github_file(file_url):
         print(f"Error reading GitHub file {file_url}: {e}")
     return False
 
-def load_local_files():
-  for file_name in os.listdir(folder_path_training):
-      file_path_training = os.path.join(folder_path_training, file_name)
-      if file_name.endswith('.json'):
-          try:
-              with open(file_path_training, 'r', encoding='utf-8', errors='ignore') as f:
-                  qa_list = json.load(f)
-                  if isinstance(qa_list, list):
-                      qa_pairs_combined_raw.extend(qa_list)
-                      print(f" QA Pairs Loaded {len(qa_list)} from file : {file_name}")
-                      load_flag = True
-                  else:
-                      print(f"Skipping the file {file_name}: as its is not a list of QA pairs.")
-          except json.JSONDecodeError:
-              print(f"error in reading the JSON file : {file_name}")
-          except Exception as e:
-              print(f"error reading {file_name}: {e}")
-      else:
-          print(f"Skipping non-JSON file: {file_name}")
-
-load_local_files()
+# control statement to load data first from local files, if not found then from github
+load_local_files(training_path_files)
 if not load_flag:
     load_github_file(github_url_training)
   
@@ -74,10 +91,10 @@ qa_pairs = qa_pairs_combined_raw
 
 print(f"total QA pairs loaded: {len(qa_pairs)}")
 
-"""below plot shows the wordcloud representation of the training data. The font size and the dark font color represent the higher frequency of that wordin the training data."""
-
 all_text = " ".join([q["query"].lower() for q in qa_pairs_combined_raw])
 
+
+#below plot shows the wordcloud representation of the training data. The font size and the dark font color represent the higher frequency of that wordin the training data."""
 
 wordcloud_alltext = WordCloud(width=800, height=400, background_color='white',
                       colormap='viridis', max_words=100).generate(all_text)
@@ -103,9 +120,9 @@ plt_lstm.tight_layout()
 plt_lstm.show()
 
 
-# Defines the size of word embedding vectors
+# defines the size of word embedding vectors
 embedding_dim_lstm = 100
-# number of hidden units in the hidden layers
+# number of hidden units in the hiden layers
 hidden_dim_lstm = 128
 #max length of the input sequence
 max_len = 20
@@ -114,7 +131,7 @@ max_len = 20
 questions = [q["query"].lower() for q in qa_pairs if "query" in q]
 answers = [q["expected_answer"] for q in qa_pairs if "expected_answer" in q]
 
-# Next step is to build the vocabulary using the word_tokenize nltk function for all the words in the question.
+# next step is to build the vocabulary using the word_tokenize nltk function for all the words in the question.
 all_words = [word for q in questions for word in word_tokenize(q)]
 
 # word frequency is calculated
@@ -266,17 +283,31 @@ def evaluate_lstm_model(test_set, model, qa_pairs, vocab, max_len, question_vecs
 
     return results
 
-file_path_testing = r"/content/Research-Chatbot/Testing/LSTM_Testing_DataSet.json"
+
+# Evaluation pipeline starts from here for LSTM model
+
 github_file_path_testing = "https://raw.githubusercontent.com/sandeepkumar-84/DBS-Msc-Applied-Research-2025/refs/heads/main/data/training-testing-data-files/LSTM_Testing_DataSet.json"
 test_set = []
-# Load test_set from file
-def load_test_set_lstm(path):
-    if not os.path.exists(path):
-        raise FileNotFoundError(f"file {path} does not exist.")
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    return data
-# define load_github_file
+
+def load_test_set_lstm(file_list):    
+    all_data = []
+    for path in file_list:
+        if not os.path.exists(path):
+            print(f"file {path} does not exist, skipping...")
+            continue
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                if isinstance(data, list):
+                    all_data.extend(data)
+                    print(f"loaded {len(data)} records from {path}")
+                else:
+                    print(f"not a list of QA pairs - {path}")
+        except json.JSONDecodeError:
+            print(f"error in decoding JSON in {path}")
+        except Exception as e:
+            print(f"error while reading {path}")
+    return all_data
 
 def load_github_file(file_url):
     try:
@@ -294,20 +325,14 @@ def load_github_file(file_url):
         print(f"error reading GitHub file {file_url}: {e}")
     return []
 
-test_set = load_test_set_lstm(file_path_testing)
+test_set = load_test_set_lstm(testing_path_files)
 
 if not test_set:
-    print(f"test set is empty or not loaded from {file_path_testing}. trying to load from GitHub...")
+    print(f"test set is empty or not loaded from local file. trying to load from GitHub...")
     test_set = load_github_file(github_file_path_testing)
     
 
 print(f"total test set loaded: {len(test_set)}")
-for item in test_set:
-    print(f"Query: {item.get('query', '')}")
-    print(f"Expected Answer: {item.get('expected_answer', '')}")
-    print("-" * 50)
-
-
 
 results = evaluate_lstm_model(
     test_set=test_set,

@@ -32,38 +32,62 @@ except LookupError:
 
 print("all necessary imports have been successfully completed.")
 
-mode_to_run = 'local'
-save_to_hf_required = False
-local_save_path = "/content/Saved_Model_Local"
-local_hf_save_path = "/content/Saved_Model_HF"
-local_research_path = "/content/Research-Chatbot"
-repo_id = "sandeepkumar84/dbs-chatbot-transformer-hf-v3"
+# variable declaration section 
+mode_to_run = 'local' # options are 'local' or 'hf' (hugging face)
+save_to_hf_required = False # set to True if you want to save to hugging face
+local_save_path = "/content/Saved_Model_Local" # path to save the model and index locally
+local_hf_save_path = "/content/Saved_Model_HF" # path to save the model and index before pushing to hugging face
+local_research_path = "/content/Research-Chatbot" # path to research folder where the training and testing data is stored
+repo_id = "sandeepkumar84/dbs-chatbot-transformer-hf-v3" # hugging face repository id
 local_repo_path = "./dbs-chatbot-transformer-hf-v3" # define a local path for the repository
-evaluation_results_path = "/content/evaluation_results.txt"
+evaluation_results_path = "/content/evaluation_results.txt" # path to save evalution results
+
 
 print("all necessary variables are declared")
 
+print(f"The program is running in the mode = {mode_to_run}")
+
+if mode_to_run in ['local']:
+    print("model and index will be loaded from LOCAL")
+elif mode_to_run in ['hf']:
+    print("model and index will be loaded from HUGGINGFACE")
+
+
+print(f"create directories if they do not exist.")
+
 os.makedirs(local_save_path, exist_ok=True)
 os.makedirs(local_hf_save_path, exist_ok=True)
+os.makedirs(local_research_path, exist_ok=True)
 
+print(f"directories {local_save_path} and {local_hf_save_path} are created if they did not exist.")
 
+print(f"put the following files in the {local_research_path} folder if you want to load data from local files:")
+print("1. Transformer_Training_DataSet-1.txt")
+print("2. Transformer_Training_DataSet-2.txt")
+print("3. Transformer_Test_DataSet.json")
+print("if these files are not found in the local folder, the program will attempt to fetch them from GitHub.")
 
 print("innitial set is completed")
 
+# github urls for training data
 github_urls_training = [
     "https://raw.githubusercontent.com/sandeepkumar-84/DBS/refs/heads/dbs_applied_research_project_v1/AppliedResearch/Working%20v1/Transformer%20Version/Transformer_Training_DataSet-1.txt",
     "https://raw.githubusercontent.com/sandeepkumar-84/DBS/refs/heads/dbs_applied_research_project_v1/AppliedResearch/Working%20v1/Transformer%20Version/Transformer_Training_DataSet-2.txt"
 ]
 
+# local path for training data
 training_path_files = [
     "/content/Research-Chatbot/Transformer_Training_DataSet-1.txt",
     "/content/Research-Chatbot/Transformer_Training_DataSet-2.txt",                                                       "/content/Research-Chatbot/Transformer_Test_DataSet.json",
 ]
 
+# parameter to check if local is sucessfuly loaded or not. 
 loaded = False
+# corpus to hold the paragraphs
 corpus_dbs = []
 folder_path_training = local_research_path
 
+# function to load the training data from local files
 def load_local_files(training_path_files=None):
     success = False
     for file_name in training_path_files:
@@ -73,12 +97,13 @@ def load_local_files(training_path_files=None):
                     paras = [para.strip() for para in content.split('\n') if len(para.strip()) > 50]
                     corpus_dbs.extend(paras)
                     success = True
-                    print(f"Loaded {len(paras)} paragraphs from Local: {file_name}")
+                    print(f"loaded {len(paras)} paragraphs from local: {file_name}")
             except Exception as e:
                 print(f"error reading {file_name}: {e}")
     return success
 
 
+# function to load the training data from github urls
 def load_from_github(urls):
     for url in urls:
         try:
@@ -87,20 +112,23 @@ def load_from_github(urls):
                 content = response.text
                 paras = [para.strip() for para in content.split('\n') if len(para.strip()) > 50]
                 corpus_dbs.extend(paras)
-                print(f"Loaded {len(paras)} paragraphs from Github: {url}")
+                print(f"loaded {len(paras)} paragraphs from Github: {url}")
             else:
-                print(f"Failed to fetch {url} — Status code: {response.status_code}")
+                print(f"Failed to fetch from github")
         except Exception as e:
-            print(f"Error reading from GitHub file {url}: {e}")
+            print(f"error while reading from github")
 
+# call function to load from local 
 loaded = load_local_files(training_path_files)
 
+# check if not loaded from local, then attempt to load from github
 if not loaded:
     print("getting data from github ...................")
     load_from_github(github_urls_training)
 
 print(f"Total paragraphs loaded into corpus_dbs: {len(corpus_dbs)}")
 
+# Wordcloud reprenstation of the corpus
 from wordcloud import WordCloud
 text_data = " ".join(corpus_dbs)
 wordcloud = WordCloud(
@@ -119,18 +147,22 @@ plt.show()
 
 print("word cloud generated and displayed.")
 
+# creating hugging face sentence transformer (which maps sentences and paragrapghs to 384 dimensional vector space.)  
+# model and faiss index. It is for the similarity search. 
 model_dbs_transformer = SentenceTransformer('all-MiniLM-L6-v2')
+# encode the dbs specific corpus to get the embeddings
 corpus_embeddings_dbs = model_dbs_transformer.encode(corpus_dbs, show_progress_bar=True, convert_to_numpy=True)
 
 # fetching the dimensions of the embeddings
 embedding_dim_transformer = corpus_embeddings_dbs.shape[1]
-# creating a faiss index for similarity search
+# creating a faiss index for similarity search. faiss is a facebook library for similarity search
 index_dbs = faiss.IndexFlatL2(embedding_dim_transformer)
 # add the corpus embeddings to the FAISS index
 index_dbs.add(corpus_embeddings_dbs)
 
-print(f"fAISS index_dbs built with {index_dbs.ntotal} vectors.")
+print(f"successfuly built FAISS index_dbs with {index_dbs.ntotal} vectors.")
 
+# saving the model and index to local path
 model_dbs_transformer.save(f"{local_save_path}/sentence_transformer")
 faiss.write_index(index_dbs, f"{local_save_path}/faiss_index_dbs.index")
 with open(f"{local_save_path}//corpus_dbs.json", "w") as f:
@@ -138,6 +170,7 @@ with open(f"{local_save_path}//corpus_dbs.json", "w") as f:
 
 print("saved SentenceTransformer model, FAISS index, and corpus to local save path.")
 
+# function to deploy it on hugging face
 def save_to_hugging_face_repo():
   api = HfApi()
   api.create_repo(repo_id, exist_ok=True)
@@ -149,14 +182,16 @@ def save_to_hugging_face_repo():
   shutil.copy(f"{local_save_path}/faiss_index_dbs.index", f"{local_hf_save_path}/faiss_index_dbs.index")
   shutil.copy(f"{local_save_path}/corpus_dbs.json", f"{local_hf_save_path}/corpus_dbs.json")
 
-  repo.push_to_hub(commit_message="Initial checkpoint of DBS chatbot pipeline")
+  repo.push_to_hub(commit_message="dbs specific chatbot for applied research project 2025")
 
+# control statement to save to hugging face or not
 if save_to_hf_required == True:
   print("saving to hugging face..............")
   save_to_hugging_face_repo()
 else:
     print("skipping saving to hugging face as save_to_hf_required is False.")
 
+# variable declaration for reload
 reloaded_model_local = None
 reloaded_index_local = None
 reloaded_corpus_local = None
@@ -164,6 +199,7 @@ reloaded_model_hf = None
 reloaded_index_hf = None
 reloaded_corpus_hf = None
 
+# function to reload from local
 def reload_local(local_save_path):
     global reloaded_model_local, reloaded_index_local, reloaded_corpus_local
     reloaded_model_local = SentenceTransformer(f"{local_save_path}/sentence_transformer")
@@ -172,6 +208,7 @@ def reload_local(local_save_path):
         reloaded_corpus_local = json.load(f)
     print("reloaded from LOCAL")
 
+# function to reload from hugging face
 def reload_hf(repo_id):
     global reloaded_model_hf, reloaded_index_hf, reloaded_corpus_hf
     local_repo_dir = snapshot_download(repo_id=repo_id)
@@ -181,16 +218,16 @@ def reload_hf(repo_id):
         reloaded_corpus_hf = json.load(f)
     print("reloaded from HUGGINGFACE")
 
+# based on mode_to_run variable reload the model and index
 if mode_to_run=='local':
     reload_local(local_save_path)
 elif mode_to_run=='hf':
     reload_hf(repo_id)
 
+# function which  converts query into embedding, finds distances between query and passages,
+# then retrieves the actual text passages from corpus. before that it loads the model and index based on 
+# the mode_to_run variable
 def retrieve_passages(query, top_k=3):
-    '''
-    converts query into embedding, finds distances between query and passages,
-    then retrieves the actual text passages from corpus.
-    '''
     if mode_to_run == 'local' and reloaded_model_local is not None:
         model_dbs_transformer = reloaded_model_local
         index_dbs = reloaded_index_local
@@ -209,9 +246,11 @@ def retrieve_passages(query, top_k=3):
     results = [corpus_dbs[idx] for idx in indices[0]]
     return results
 
+# loading t5 model and tokenizer for generating the answer
 t5_model_dbs = T5ForConditionalGeneration.from_pretrained("t5-base")
 t5_tokenizer_dbs = T5Tokenizer.from_pretrained("t5-base")
 
+# based on the passages retrieved above, this function generates the answer
 def generate_answer(query, context_passages):
     context = " ".join(context_passages)
     prompt = f"question: {query} context: {context}"
@@ -220,11 +259,13 @@ def generate_answer(query, context_passages):
     answer = t5_tokenizer_dbs.decode(outputs[0], skip_special_tokens=True)
     return answer
 
+# example usage
 query = "How many books does the DBS Library have?"
 passages = retrieve_passages(query)
 answer = generate_answer(query, passages)
 print("Generated Answer:\n", answer)
 
+# function that mimics a chatbot interface
 def start_chatbot(top_k=3):
     print(f"DBS Chatbot is ready Type 'exit' to quit.\n Running in mode = {mode_to_run}")
 
@@ -240,9 +281,11 @@ def start_chatbot(top_k=3):
         print("DBS Chatbot:", answer)
         print("-" * 60)
 
-
+# execute the chatbot function to start the conversation
 start_chatbot()
 
+# following code is purosefully commented out. It is to refine the answer generated by the t5 model using a 
+# llama based model. It is time consuming and can be used for future enhancements
 '''
 model_id_tinyllm_dbs = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 tokenizer_tinyllm_dbs = AutoTokenizer.from_pretrained(model_id_tinyllm_dbs)
@@ -282,12 +325,17 @@ raw_answer = "over 43,000"
 #print("📘 Refined Answer:", refined)
 '''
 
+# evaluation of the model using a test set
+
+# local testing file path
 file_path_test = r"/content/Research-Chatbot/Transformer_Test_DataSet.json"
+# github testing file path
 github_urls_test = "https://raw.githubusercontent.com/sandeepkumar-84/DBS/refs/heads/dbs_applied_research_project_v1/AppliedResearch/Working%20v1/Transformer%20Version/Transformer_Test_DataSet.json"
 
 test_set = []
 load_test_local = False
 
+# local function to load the test set
 def load_test_set(path):
     if not os.path.exists(path):
         raise FileNotFoundError(f"The file {path} does not exist.")
@@ -297,6 +345,7 @@ def load_test_set(path):
         print(f"loaded test set from local file: {path}")
     return data
 
+# function to load the test set from github
 def lod_test_set_from_github(path):
     try:
         response = requests.get(path)
@@ -308,16 +357,20 @@ def lod_test_set_from_github(path):
     except Exception as e:
         raise Exception(f"error loading test set from GitHub: {e}")
 
+# control statement to load the test set, first from local, if not found then from github
 try:
     load_test_set(file_path_test)
     if not load_test_local:
         test_set = lod_test_set_from_github(github_urls_test)
-    print("Test set loaded successfully.")
+    print("test set loaded successfully.")
 except Exception as e:
     print(f"Error: {e}")
 
+# This function gives more balanced BLEU scores. In case of higher n-grams, it is likely that there will 
+# be no matching n-grams. therefore, smoothing is used to avoid zero scores.
 smoothie = SmoothingFunction().method4
 
+# evaluation function
 def evaluate_transformer_model(test_set):
     # variable declaration
     results = []
