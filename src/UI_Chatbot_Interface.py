@@ -4,29 +4,29 @@ from Voice_IO_Logic import listen
 from PIL import Image, ImageTk
 
 
+# variable declarations
 DBS_BOT_NAME = "DBS Bot"
-
 FONT_FAMILY = "Helvetica 14" 
 FONT_FAMILY_BOLD = "Poppins 13 bold"
 
+# standard colors
 FONT_COLOR_VAR = "#2C201D"
 FOOTER_BACK_COLOR = "#F6F8F9"
 BODY_BACK_COL = "#FCFCFC"
 
-
-
-
+# main chatbot application class
 class DBSResearchChatbotApp:    
     def __init__(self):
-        self.window = Tk()
-        logo_image = Image.open("/content/DBS-Chat.png")  
-        logo_image = logo_image.resize((240, 30), Image.Resampling.LANCZOS)
-        self.logo_photo = ImageTk.PhotoImage(logo_image)
-        self._setup_main_chat_window()
+        self.window = Tk() # main window initialization
+        logo_image = Image.open("/content/DBS-Chat.png")  # dbs logo png path
+        logo_image = logo_image.resize((240, 30), Image.Resampling.LANCZOS) # adjusting/resizing image
+        self.logo_photo = ImageTk.PhotoImage(logo_image) # converting image to photoimage
+        self._setup_main_chat_window() # setting up main chat window
 
     def run_chatbot_ui(self):
-        self.window.mainloop()
+        self.window.mainloop() # running the main loop of the application
 
+# function to setput the chatbot window by declaration of various widgets like labels, text box, entry box, buttons etc.
     def _setup_main_chat_window(self):
         self.window.title("DBS Research Chatbot")
         self.window.resizable(width=False, height=False)
@@ -62,10 +62,11 @@ class DBSResearchChatbotApp:
                             command=self.voice_input)        
         mic_button.place(relx=0.79, rely=0.007, relheight=0.05, relwidth=0.20)
 
+    # action events for various widgets
     def _on_enter_pressed_event(self, event):
         msg = self.txt_entry.get()
         self._insert_message_event(msg,"You")
-
+    # function to insert messages in the text box widget
     def _insert_message_event(self, msg, sender):
         if not msg:
             return
@@ -85,7 +86,7 @@ class DBSResearchChatbotApp:
         self.txt_dbs_widget.configure(state=DISABLED)        
 
         self.txt_dbs_widget.see(END)    
-       
+    # function to handle voice input
     def voice_input(self):
         self.txt_dbs_widget.configure(state=NORMAL)
         self.txt_dbs_widget.insert(END, f"\U0001F399 Listening...\n")

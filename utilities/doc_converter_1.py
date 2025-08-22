@@ -2,10 +2,15 @@ import os
 from docling.document_converter import DocumentConverter
 from docling_core.transforms.serializer.markdown import MarkdownDocSerializer
 
-source  = "C:\Research-Chatbot\DataCollection\Brochures"
-dest = "C:\Research-Chatbot\DataCollection\Brochures_text"
+local_research_path = "/content/Research-Chatbot"
+
+source  = f"{local_research_path}\DataCollection\Brochures"
+dest = f"{local_research_path}\DataCollection\Brochures_text"
 converter_files = DocumentConverter()
 
+os.makedirs(local_research_path, exist_ok=True)
+os.makedirs(source, exist_ok=True)
+os.makedirs(dest, exist_ok=True)
 # Create destination directory if it doesn't exist
 if not os.path.exists(dest):
     os.makedirs(dest)
