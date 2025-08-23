@@ -6,7 +6,7 @@ import requests
 # set this variable if you want to create directories and upload files from github repo
 # else if directories and files are already present, set this variable to False
 # or if the files are manually uploaded, set this variable to False
-create_dir_and_uploaf_files_flag = True
+create_dir_and_uploaf_files_flag = False
 
 # 1. install required packages. If already installed, it will skip the installation.
 packages = [

@@ -1,16 +1,50 @@
 # DBS-Msc-Applied-Research-2025
 This repository contains the implementation of a DBS-specific chatbot developed as part of the MSc Applied Research Project (2025). The project compares Transformer (SentenceTransformers + T5 with FAISS) against traditional LSTM for text and voice-based interactions, including model development, evaluation, and user interface integration.
 
-# Folder Strcture 
+# ################# Installation & Setup #########################
+
+# Option 1 - Manual
+
+# 1.1 Copy the folder contents directly into the C drive. 
+# 1.2 run installation file, It will install alll the livraries required in all the files.
+        utilities/install_dependencies.py
+# 1.3 To run the Transformer version of the chatbot use command 
+        python src/Transformer_DBS_Chatbot_2025.py
+# 1.4 To run the LSTM version of the chatbot use command 
+        python src/LSTM_DBS_Chatbot_2025.py
+# 1.5 To run the the chatbot user interface application use command . 
+        python src/UI_Chatbot_Interface.py
+# 1.6 To run the the Result comparison and hypothesis testing results
+        python src/ResultComparison.py
+
+# Option 2 - Auto
+
+# 2.1 Open the installation file below and set create_dir_and_uploaf_files_flag = True. It will 
+#      first install the libraries, then create necessary folders, and finally upload files from github
+
+        p ython  utilities/install_dependencies.py     
+
+# 2.2 To run the Transformer version of the chatbot use command 
+        python src/Transformer_DBS_Chatbot_2025.py
+# 2.3 To run the LSTM version of the chatbot use command 
+        python src/LSTM_DBS_Chatbot_2025.py
+# 2.4 To run the the chatbot user interface application use command . 
+        python src/UI_Chatbot_Interface.py
+# 2.5 To run the the Result comparison and hypothesis testing results
+        python src/ResultComparison.py
+
+# ################# Folder Structure #########################
 
 --DBS-Msc-Applied-Research-2025/
-    --colab_notebooks/                                              # google colab notebooks versions 
+    --README.md
+    --colab_notebooks/                          # google colab notebooks versions 
         -- LSTM_DBS_Chatbot_2025.py
         -- LSTM_DBS_Chatbot_2025.ipynb
         -- Transformer_DBS_Chatbot_2025.py
         -- Transformer_DBS_Chatbot_2025.ipynb
         -- ResultComparison.ipynb
-    --data/                                                          # brochures, test, training data files
+    --content                                   # Files n str required for direct copy paste         
+    --data/                                     # brochures, test, training data files
         -- brochures-data-collected/
             -- 1-Dbs-postgraduate-programmes.pdf
             -- 2-FAQs-DBS.pdf
@@ -27,7 +61,7 @@ This repository contains the implementation of a DBS-specific chatbot developed 
             -- Transformer_Test_DataSet.json
             -- Transformer_Training_DataSet-1.txt
             -- Transformer_Training_DataSet-2.txt
-            --Intent-Common.json                                                # Intent json             
+            -- Intent-Common.json                 # Intent files
         -- web-scraped-data-collected/
             -- 1. why_dbs_scraped_dbs.txt
             -- 2. contact_us_dbs_scraped_dbs.txt
@@ -49,6 +83,7 @@ This repository contains the implementation of a DBS-specific chatbot developed 
         --Intent_Rule_Responses.py
         --LSTM_DBS_Chatbot_2025.py
         --Model_Response_Predictor.py
+        --ResultComparison.py
         --Transformer_DBS_Chatbot_2025.py
         --UI_Chatbot_Interface.py
         --Voice_IO_Logic.py
@@ -59,16 +94,3 @@ This repository contains the implementation of a DBS-specific chatbot developed 
         --Imports and Purpose.txt
         --install_dependencies.py
 
-#Installation & Setup
-
-# 1. From utilities folder run installations. It will install alll the livraries required in all the files. Creats the local directories in C drive used by code for uploading training, testing, logo etc Load the files from github
-
-     python  utilities/install_dependencies.py
-# 2. To run the Transformer version of the chatbot use command 
-     python src/Transformer_DBS_Chatbot_2025.py
-# 3. To run the LSTM version of the chatbot use command 
-     python src/LSTM_DBS_Chatbot_2025.py
-# 4. To run the the chatbot user interface application use command . 
-     python src/UI_Chatbot_Interface.py
-# 5. To run the the Result comparison and hypothesis testing results
-     python src/ResultComparison.py
