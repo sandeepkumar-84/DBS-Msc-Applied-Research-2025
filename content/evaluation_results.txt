@@ -1,0 +1,1210 @@
+Accuracy (Exact Match): 0.84
+Average BLEU Score: 0.68
+Average BERTScore F1: 0.96
+Average Inference Time: 0.45 seconds
+
+Detailed Results:
+Query: What is PSI?
+Generated: a professional body for psychology in Ireland
+Expected: professional body for psychology in Ireland
+Exact Match: 1
+BLEU Score: 0.8091
+Time Taken: 0.3653 seconds
+
+Query: What country has the highest reputation for leading independent colleges?
+Generated: Ireland
+Expected: Ireland
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.1425 seconds
+
+Query: student population of DBS?
+Generated: over 9,000
+Expected: over 9,000
+Exact Match: 1
+BLEU Score: 0.2214
+Time Taken: 0.2541 seconds
+
+Query: What is the name of Ireland's largest independent third-level college?
+Generated: Ireland's Leading Independent College
+Expected: Dublin Business School
+Exact Match: 0
+BLEU Score: 0.0000
+Time Taken: 0.2919 seconds
+
+Query: When was Dublin Business School established?
+Generated: 1975
+Expected: 1975
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.1440 seconds
+
+Query: When was DBS established?
+Generated: 1975
+Expected: 1975
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.1738 seconds
+
+Query: DBS was established in which year?
+Generated: 1975
+Expected: 1975
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.2129 seconds
+
+Query: What is the name of the society that represents psychology students in Ireland?
+Generated: Psychology Society of Ireland
+Expected: Psychology Society of Ireland
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.2592 seconds
+
+Query: What is the name of the college established in 1975?
+Generated: Dublin Business School
+Expected: Dublin Business School
+Exact Match: 1
+BLEU Score: 0.5757
+Time Taken: 0.2741 seconds
+
+Query: What is the primary focus of Dublin Business School?
+Generated: provide a comprehensive range of full-time and part-time undergraduate, postgraduate and executive education programmes
+Expected: provide a comprehensive range of full-time and part-time undergraduate, postgraduate and executive education programmes
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.7062 seconds
+
+Query: What is PSI?
+Generated: a professional body for psychology in Ireland
+Expected: to promote and support psychology education and practice in Ireland Higher Diploma in Arts in Psychology
+Exact Match: 0
+BLEU Score: 0.0251
+Time Taken: 0.3340 seconds
+
+Query: What is the main focus of PSI?
+Generated: to promote and support psychology education and practice
+Expected: promote and support psychology education and practice
+Exact Match: 1
+BLEU Score: 0.8409
+Time Taken: 0.3589 seconds
+
+Query: What is the primary goal of PSI?
+Generated: promote and support psychology education and practice
+Expected: promote and support psychology education and practice
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3228 seconds
+
+Query: What is the purpose of NFQ?
+Generated: to create a single, easily understood qualifications system for all levels of education and training in Ireland
+Expected: to create a single, easily understood qualifications system for all levels of education and training in Ireland
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.6507 seconds
+
+Query: What is the underlying framework of QQI?
+Generated: National Framework of Qualification
+Expected: National Framework of Qualification
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.2506 seconds
+
+Query: How many stars did DBS achieve overall in the QS Stars Rating System?
+Generated: 4
+Expected: 4
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.2418 seconds
+
+Query: For which categories did DBS earn the highest rating in the QS Stars assessment?
+Generated: Online Learning and Inclusiveness
+Expected: Online Learning and Inclusiveness
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3731 seconds
+
+Query: List the areas where DBS received a 4-Star rating in addition to its overall score.
+Generated: Teaching, Employability, and Academic Development
+Expected: Teaching, Employability, and Academic Development
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3069 seconds
+
+Query: Why is the QS Stars recognition important for DBS?
+Generated: considered one of the most credible and influential ratings globally for higher education institutions
+Expected: considered one of the most credible and influential ratings globally for higher education institutions
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.5344 seconds
+
+Query: What global recognition has DBS recently attained?
+Generated: QS Stars rating
+Expected: QS Stars rating
+Exact Match: 1
+BLEU Score: 0.5757
+Time Taken: 0.2867 seconds
+
+Query: How long does it take to walk from St. Stephen's Green to DBS?
+Generated: two-minute walk
+Expected: two-minute
+Exact Match: 1
+BLEU Score: 0.0675
+Time Taken: 0.3923 seconds
+
+Query: What advantages does DBS's city centre location provide?
+Generated: great ease of access no matter where you are living across the city
+Expected: great ease of access no matter where you are living across the city
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.4659 seconds
+
+Query: How far apart are the DBS educational sites?
+Generated: 5 minutes' walk
+Expected: 5 minutes' walk
+Exact Match: 1
+BLEU Score: 0.5757
+Time Taken: 0.2290 seconds
+
+Query: Under the PEL provision, what will Kaplan, Inc. do if a Trigger Event occurs?
+Generated: refund the moneys most recently paid to the relevant payers
+Expected: refund the moneys most recently paid to the relevant payers
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.5341 seconds
+
+Query: Which section of the Qualifications and Quality Assurance Act covers the Protection of Enrolled Learners for DBS courses?
+Generated: 65 (4)
+Expected: 65 (4)
+Exact Match: 1
+BLEU Score: 0.2214
+Time Taken: 0.3202 seconds
+
+Query: Which sections of the Act are referenced for QQI withdrawal of validation?
+Generated: 36(7), section 47, or section 59(7)
+Expected: 36(7), section 47, or section 59(7)
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.4817 seconds
+
+Query: When was DBS established?
+Generated: 1975
+Expected: 1975
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.2015 seconds
+
+Query: What was DBS formerly known as?
+Generated: Accountancy and Business College
+Expected: Accountancy and Business College
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.2426 seconds
+
+Query: What professional programmes did DBS offer by the mid-1980s?
+Generated: accounting, marketing, and banking
+Expected: accounting, marketing, and banking
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3387 seconds
+
+Query: How did DBS expand after its initial establishment?
+Generated: based on its reputation
+Expected: based on its reputation
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.2304 seconds
+
+Query: Learner Supports Service at DBS?
+Generated: to ensure that programmes and facilities are accessible to students with specific needs wherever possible
+Expected: https://students.dbs.ie/dbs-student-services/disabilities-support
+Exact Match: 0
+BLEU Score: 0.0000
+Time Taken: 0.6801 seconds
+
+Query: Where can more information on the Learner Supports Service be found?
+Generated: DBS website
+Expected: DBS website
+Exact Match: 1
+BLEU Score: 0.2214
+Time Taken: 0.3906 seconds
+
+Query: Which policy contains full details of supports for learners with additional needs?
+Generated: QAH Section 4.4 Supports for Learners with Additional Needs (Need Extra Provision) Policy
+Expected: QAH Section 4.4 Supports for Learners with Additional Needs (Need Extra Provision) Policy
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.7378 seconds
+
+Query: How does DBS support students with specific needs?
+Generated: active interest in the welfare of each and every student at DBS
+Expected: active interest in the welfare of each and every student at DBS
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.4291 seconds
+
+Query: Where can the QAH document be accessed?
+Generated: DBS website
+Expected: DBS website
+Exact Match: 1
+BLEU Score: 0.2214
+Time Taken: 0.1922 seconds
+
+Query: Where is the Learner Supports Coordinator available for face-to-face contact?
+Generated: in the Library in Aungier Street
+Expected: in the Library in Aungier Street
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.4008 seconds
+
+Query: Who can provide the report needed for an assessment of support needs?
+Generated: An appropriate report from a relevant expert such as a medical consultant or educational psychologist
+Expected: a medical consultant or educational psychologist
+Exact Match: 1
+BLEU Score: 0.3238
+Time Taken: 0.7641 seconds
+
+Query: Will the Learner Supports Coordinator keep student information confidential?
+Generated: The Learner Supports Coordinator will maintain strict confidentiality unless permitted to disclose information to faculty
+Expected: will maintain strict confidentiality unless permitted to disclose information to faculty
+Exact Match: 1
+BLEU Score: 0.7012
+Time Taken: 0.7662 seconds
+
+Query: what is the contact number of the Learner Supports Coordinator?
+Generated: 01 4170667
+Expected: 01 4170667
+Exact Match: 1
+BLEU Score: 0.2214
+Time Taken: 0.4569 seconds
+
+Query: Library location?
+Generated: second floor of the Aungier Street Campus
+Expected: second floor of the Aungier Street Campus
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3195 seconds
+
+Query: Fund for Students with Disabilities is administered by
+Generated: Higher Education Authority (HEA) to cover the cost of accommodations such as classroom assistants sign language interpretersa ssistive technologies
+Expected: Higher Education Authority (HEA)
+Exact Match: 1
+BLEU Score: 0.1267
+Time Taken: 0.8203 seconds
+
+Query: Are students with disabilities eligible for the Fund?
+Generated: True
+Expected: True
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.2017 seconds
+
+Query: What does DBS do to support students with disabilities if HEA funding is unavailable?
+Generated: DBS will endeavour to meet the needs of students with disabilities within the constraints of not being eligible for the Fund for Students with Disabilities
+Expected: Fund for Students with Disabilities
+Exact Match: 1
+BLEU Score: 0.1410
+Time Taken: 0.9242 seconds
+
+Query: what all accommodations are covered by the Fund for Students with Disabilities?
+Generated: classroom assistants, sign language interpreters, and assistive technologies
+Expected: classroom assistants, sign language interpreters, and assistive technologies
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.4914 seconds
+
+Query: What accommodations are covered by the Fund for Students with Disabilities?
+Generated: classroom assistants, sign language interpreters, and assistive technologies
+Expected: classroom assistants, sign language interpreters, and assistive technologies
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.4760 seconds
+
+Query: What is the main mandate of Education in Ireland?
+Generated: To promote Ireland as a quality destination for students and support the international activities of Irish education institutions
+Expected: Quality Assurance
+Exact Match: 0
+BLEU Score: 0.0000
+Time Taken: 0.5826 seconds
+
+Query: What role does Education in Ireland play in relation to Irish education expertise?
+Generated: It promotes Irish education expertise as a valuable resource for international institutions, development agencies, and governments
+Expected: It promotes Irish education expertise as a valuable resource for international institutions, development agencies, and governments
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.6179 seconds
+
+Query: What must a student do before applying for an Irish visa after admission to DBS?
+Generated: Pay their tuition fees in full to the College prior to making the visa application
+Expected: Pay their tuition fees in full to the College prior to making the visa application
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.5450 seconds
+
+Query: Where must non-EU students register upon arrival in Ireland?
+Generated: Garda National Immigration Bureau
+Expected: Garda National Immigration Bureau
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3386 seconds
+
+Query: How many hours per week can non-EU international students work during term time in Ireland?
+Generated: 20
+Expected: 20
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.2211 seconds
+
+Query: Are non-EU students allowed to work full-time during holiday periods?
+Generated: non-EU students allowed to work full-time during holiday periods?
+Expected: up to 40 hours per week
+Exact Match: 0
+BLEU Score: 0.0257
+Time Taken: 0.4807 seconds
+
+Query: What financial proof is required when applying for a student visa for Ireland?
+Generated: financial resources
+Expected: financial resources
+Exact Match: 1
+BLEU Score: 0.2214
+Time Taken: 0.1647 seconds
+
+Query: What support does the International Student Services Team at DBS provide?
+Generated: registration and orientation, immigration services and advice, international student letters, accommodation advice, general advice and support, social and cultural activities, and further study information
+Expected: registration and orientation
+Exact Match: 1
+BLEU Score: 0.0251
+Time Taken: 0.9347 seconds
+
+Query: How many university partnerships has DBS developed in Europe?
+Generated: Over 75
+Expected: over 75
+Exact Match: 1
+BLEU Score: 0.0675
+Time Taken: 0.2320 seconds
+
+Query: What reasons do European students give for choosing DBS?
+Generated: quality of teaching, excellent location, wide range of sports and activities, and the opportunity to obtain an internationally recognised qualification from an English speaking country
+Expected: quality of teaching, excellent location, wide range of sports and activities, and the opportunity to obtain an internationally recognised qualification from an English speaking country
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.8768 seconds
+
+Query: What is ISEG and what opportunity does it provide to students?
+Generated: ISEG is a group of seven business schools in France
+Expected: ISEG
+Exact Match: 1
+BLEU Score: 0.0235
+Time Taken: 0.4742 seconds
+
+Query: What kind of programme does DBS offer to US undergraduate students?
+Generated: A Study Abroad Programme
+Expected: A Study Abroad Programme
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3024 seconds
+
+Query: What is the collaboration between DBS and Xiamen University?
+Generated: An Articulation Agreement
+Expected: An Articulation Agreement
+Exact Match: 1
+BLEU Score: 0.5757
+Time Taken: 0.4085 seconds
+
+Query: What is the UPAEP Academic Collaboration with MARA, Malaysia?
+Generated: A transnational collaborative agreement delivering the DBS BA (Hons) in Accounting and Finance programme at KPTM in Malaysia
+Expected: A transnational collaborative agreement delivering the DBS BA (Hons) in Accounting and Finance programme at KPTM in Malaysia
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.8176 seconds
+
+Query: How many Malaysian students have graduated with DBS qualifications through the MARA collaboration?
+Generated: Over 1,300
+Expected: Over 1,300
+Exact Match: 1
+BLEU Score: 0.2214
+Time Taken: 0.2012 seconds
+
+Query: What is FAE Brazil’s role in DBS partnerships?
+Generated: FAE Brazil is a leading provider of business and management education partnering with DBS
+Expected: leading provider of business and management education
+Exact Match: 1
+BLEU Score: 0.4324
+Time Taken: 0.5832 seconds
+
+Query: What programs does EU Business School offer in partnership with DBS?
+Generated: BA (Hons) in Business and a Master of Business Administration (MBA)
+Expected: BA (Hons) in Business and a Master of Business Administration (MBA)
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.5748 seconds
+
+Query: What is notable about EU Business School's campuses?
+Generated: professionally accredited and highly ranked globally
+Expected: professionally accredited and highly ranked globally
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.2918 seconds
+
+Query: What is Universidad Popular Autónoma del Estado de Puebla?
+Generated: A private, non-profit university
+Expected: A private, non-profit university
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3486 seconds
+
+Query: What is the partnership between DBS and University of New York in Prague (UNYP)?
+Generated: University
+Expected: new postgraduate degrees in Pragu
+Exact Match: 0
+BLEU Score: 0.0000
+Time Taken: 0.1911 seconds
+
+Query: What are the main objectives of Education in Ireland?
+Generated: To promote Ireland as a quality destination for students
+Expected: To promote Ireland as a quality destination for students
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3615 seconds
+
+Query: What must non-EU students do upon arrival in Ireland?
+Generated: register with the Garda National Immigration Bureau (GNIB) for permission to remain in Ireland to study
+Expected: register with the Garda National Immigration Bureau (GNIB) for permission to remain in Ireland to study
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.7012 seconds
+
+Query: How can non-EU students get help with the Irish visa process at DBS?
+Generated: The International Team at DBS will help guide them through the visa and immigration registration process
+Expected: The International Team at DBS will help guide them through the visa and immigration registration process
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.5471 seconds
+
+Query: What are the work restrictions for international non-EU students in Ireland?
+Generated: up to 20 hours per week during term time and up to 40 hours per week during scheduled holiday periods
+Expected: 20 hours per week
+Exact Match: 1
+BLEU Score: 0.1199
+Time Taken: 0.6286 seconds
+
+Query: What services does the International Student Services Team at DBS provide?
+Generated: registration and orientation, immigration services and advice, international student letters, accommodation advice, general advice and support, social and cultural activities, and further study information
+Expected: immigration services and advice, international student letters, accommodation advice, general advice and support, social and cultural activities, and further study information
+Exact Match: 1
+BLEU Score: 0.8663
+Time Taken: 0.8701 seconds
+
+Query: How many university partnerships has DBS established in Europe?
+Generated: Over 75
+Expected: over 75
+Exact Match: 1
+BLEU Score: 0.0675
+Time Taken: 0.2241 seconds
+
+Query: Why do European students choose DBS?
+Generated: quality of teaching, excellent location, wide range of sports and activities, and the opportunity to obtain an internationally recognised qualification from an English-speaking country
+Expected: quality of teaching
+Exact Match: 1
+BLEU Score: 0.0251
+Time Taken: 0.9348 seconds
+
+Query: Which French business school network is linked with DBS?
+Generated: EGC (Écoles de Gestion et de Commerce)
+Expected: EGC (Écoles de Gestion et de Commerce)
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.5203 seconds
+
+Query: What is CEU Madrid known for?
+Generated: oldest private university in Spain offering BA, Double Degrees, and Postgraduate courses in Economics, Business, Communication, Humanities, Architecture, Engineering, and Health Sciences
+Expected: oldest private university in Spain
+Exact Match: 1
+BLEU Score: 0.1617
+Time Taken: 1.0614 seconds
+
+Query: What are the areas of specialization at IULM University in Milan?
+Generated: Arts, Foreign Languages, Communication, Tourism, and Cultural Heritage
+Expected: Arts, Foreign Languages, Communication, Tourism, and Cultural Heritage
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.5107 seconds
+
+Query: What documents should EU applicants submit for Masters programmes at DBS?
+Generated: Academic transcripts (original and official English translation if needed), proof of identification, detailed CV, proof of English proficiency where applicable
+Expected: Academic transcripts (original and official English translation if needed), proof of identification, detailed CV, proof of English proficiency where applicable
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.8452 seconds
+
+Query: What is the contact information for the Postgraduate Admissions Office at DBS?
+Generated: The Postgraduate Admissions Office at Dublin Business School, 13/14 Aungier Street, Dublin 2
+Expected: The Postgraduate Admissions Office at Dublin Business School, 13/14 Aungier Street, Dublin 2
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.6984 seconds
+
+Query: What is the contact information for the International Admissions Office at DBS?
+Generated: 01 417 7500
+Expected: 01 417 7500
+Exact Match: 1
+BLEU Score: 0.5757
+Time Taken: 0.2425 seconds
+
+Query: What is the duration of the Higher Diploma in Arts in Psychology programme at DBS?
+Generated: 2 Years
+Expected: 2 Years
+Exact Match: 1
+BLEU Score: 0.2214
+Time Taken: 0.2225 seconds
+
+Query: Higher Diploma in Arts in Psychology is designed for?
+Generated: ?
+Expected: graduates who wish to pursue a professional career or postgraduate study in psychology but who don't hold an Honours degree in psychology
+Exact Match: 0
+BLEU Score: 0.0000
+Time Taken: 0.1372 seconds
+
+Query: What are some of the Year 1 modules in the Higher Diploma in Arts in Psychology at DBS?
+Generated: History and Schools in Psychology, Research Technique and Analysis 1, Cognitive Psychology, Foundations in Developmental and Social Psychology, Behaviour Analysis, Research Technique and Analysis 2, Experimental Psychology, Ethical Research Methods and Design
+Expected: Health Psychology, Biopsychology, Advanced Developmental and Social Psychology, Mental Health and Distress
+Exact Match: 0
+BLEU Score: 0.0804
+Time Taken: 1.2634 seconds
+
+Query: What are some of the Year 2 modules in the Higher Diploma in Arts in Psychology at DBS?
+Generated: Health Psychology, Biopsychology, Advanced Developmental and Social Psychology, Mental Health and Distress
+Expected: Personality and Individual Differences, Health Psychology, Biopsychology, Advanced Developmental and Social Psychology, Mental Health and Distress.
+Exact Match: 0
+BLEU Score: 0.6475
+Time Taken: 0.6135 seconds
+
+Query: What is the professional significance of completing the Higher Diploma in Arts in Psychology at DBS?
+Generated: a step toward professional psychology training and employment
+Expected: a step toward professional psychology training and employment
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3462 seconds
+
+Query: What documents are required for Masters Programme applications at DBS for EU applicants?
+Generated: Academic Transcripts (original and official English translation if issued in another language), Proof of Identification (driver's licence or passport), Detailed Curriculum Vitae, Proof of English language proficiency if applicable
+Expected: Academic Transcripts (original and official English translation if issued in another language if issued in another language), Proof of Identification (driver's licence or passport), Detailed Curriculum Vitae, Proof of English language proficiency if applicable
+Exact Match: 0
+BLEU Score: 0.8416
+Time Taken: 1.2217 seconds
+
+Query: What additional documents must non-EU applicants residing in Ireland provide for Masters applications?
+Generated: A copy of the GNIB card, work permit (if applicable), passport, and the letter from the Department of Justice, Equality and Law Reform explaining the provision of these documents
+Expected: A copy of the GNIB card, work permit (if applicable), passport, and the letter from the Department of Justice, Equality and Law Reform explaining the provision of these documents
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 1.0235 seconds
+
+Query: What documents are non-EU applicants required to submit for programme applications at DBS?
+Generated: Academic Transcripts (with official English translation if applicable), Proof of Identification (passport), Detailed Curriculum Vitae, Proof of English proficiency, Academic/business references (except for Business programmes) and copies of GNIB card and work permit
+Expected: Academic Transcripts (original and official English translation if issued in another language), Proof of Identification (driver's licence or passport), Detailed Curriculum Vitae, Proof of English language proficiency if applicable
+Exact Match: 0
+BLEU Score: 0.2662
+Time Taken: 1.4000 seconds
+
+Query: Are academic/business references required for Business programmes for non-EU applicants at DBS?
+Generated: academic/business references are not required
+Expected: academic/business references are not required
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3499 seconds
+
+Query: Who should be contacted for further information about postgraduate admissions at DBS?
+Generated: The Postgraduate Admissions Office at Dublin Business School, 13/14 Aungier Street, Dublin 2
+Expected: Postgraduate Admissions Office
+Exact Match: 1
+BLEU Score: 0.0973
+Time Taken: 0.6131 seconds
+
+Query: Who should be contacted for further information about international admissions at DBS?
+Generated: International Admissions Office
+Expected: International Admissions Office
+Exact Match: 1
+BLEU Score: 0.5757
+Time Taken: 0.2138 seconds
+
+Query: At what NFQ level is the Higher Diploma in Arts in Psychology offered?
+Generated: NFQ Level 8
+Expected: 8
+Exact Match: 1
+BLEU Score: 0.0725
+Time Taken: 0.2863 seconds
+
+Query: What is the duration of the Higher Diploma in Arts in Psychology programme at DBS?
+Generated: 2 Years
+Expected: 2 Years
+Exact Match: 1
+BLEU Score: 0.2214
+Time Taken: 0.2054 seconds
+
+Query: Higher Diploma in Arts in Psychology is suited for?
+Generated: graduates who wish to pursue a professional career or postgraduate study in psychology
+Expected: graduates who wish to pursue a professional career or postgraduate study in psychology
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.4669 seconds
+
+Query: What is the significance of completing the Higher Diploma in Arts in Psychology?
+Generated: It represents the necessary first step to becoming a professional psychologist
+Expected: It represents the necessary first step to becoming a professional psychologist
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.4781 seconds
+
+Query: What is the mandate of Education in Ireland?
+Generated: To promote Ireland as a quality destination for students, To support the international activities of Irish education institutions, act as a national contact and referral point, promote Irish education expertise internationally, and liaise with government to remove barriers to the international education sector
+Expected: To promote Ireland as a quality destination for students, To support the international activities of Irish education institutions, act as a national contact and referral point, promote Irish education expertise internationally, and liaise with government to remove barriers to the international education sector
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 1.3797 seconds
+
+Query: Who should non-EU students contact for help with Irish visa applications at DBS?
+Generated: The International Team at Dublin Business School
+Expected: The International Team at Dublin Business School
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.2989 seconds
+
+Query: What must non-EU students do upon arrival in Ireland to study at DBS?
+Generated: Register with the Garda National Immigration Bureau (GNIB) for permission to remain in Ireland
+Expected: register with the Garda National Immigration Bureau (GNIB) for permission to remain in Ireland
+Exact Match: 1
+BLEU Score: 0.9193
+Time Taken: 0.6448 seconds
+
+Query: Are international non-EU students in Ireland allowed to work during their studies?
+Generated: up to 20 hours per week during term and full-time during scheduled holidays
+Expected: up to 20 hours per week during term and full-time during scheduled holidays
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.5011 seconds
+
+Query: What is required to prove financial resources when applying for a student visa for Ireland?
+Generated: Applicants must show they have sufficient resources to support themselves for the duration of their studies, without counting potential earnings from part-time work
+Expected: Applicants must show they have sufficient resources to support themselves for the duration of their studies, without counting potential earnings from part-time work
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.7283 seconds
+
+Query: Does the Irish student visa offer a 'stay back' option for graduates?
+Generated: Graduates of many DBS courses have a stay back option
+Expected: Graduates of many DBS courses have a stay back option
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.4987 seconds
+
+Query: What services does the International Student Services Team at DBS provide?
+Generated: registration and orientation, immigration services and advice, international student letters, accommodation advice, general advice and support, social and cultural activities, and further study information
+Expected: immigration services and advice, international student letters, accommodation advice, general advice and support, social and cultural activities, and further study information
+Exact Match: 1
+BLEU Score: 0.8663
+Time Taken: 0.8243 seconds
+
+Query: How many university partnerships has DBS developed in Europe?
+Generated: Over 75
+Expected: over 75
+Exact Match: 1
+BLEU Score: 0.0675
+Time Taken: 0.2213 seconds
+
+Query: Why do European students choose DBS?
+Generated: quality of teaching, excellent location, wide range of sports and activities, and the opportunity to obtain an internationally recognised qualification from an English-speaking country
+Expected: quality of teaching
+Exact Match: 1
+BLEU Score: 0.0251
+Time Taken: 0.9064 seconds
+
+Query: What is EGC and what is its connection with DBS?
+Generated: EGC is a network of 28 French Business Schools
+Expected: EGC is a network of 28 French Business Schools
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.4461 seconds
+
+Query: What programs does CEU San Pablo University of Madrid offer?
+Generated: BA (Hons), Double Degrees, and Postgraduate courses in Economics, Business, Communication, Humanities, Architecture, Engineering, and Health Sciences
+Expected: BA (Hons), Double Degrees, and Postgraduate courses in Economics, Business, Communication, Humanities, Architecture, Engineering, and Health Sciences.
+Exact Match: 0
+BLEU Score: 0.9351
+Time Taken: 0.9447 seconds
+
+Query: What is IULM University known for?
+Generated: Arts, Foreign Languages, Communication, Tourism, and Cultural Heritage
+Expected: Arts, Foreign Languages, Communication, Tourism, and Cultural Heritage
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.5042 seconds
+
+Query: What is the significance of the articulation agreement with Xiamen University, China?
+Generated: allows Xiamen graduates to continue their studies at DBS and earn a BA (Hons) Degree in Accounting and Finance or Financial Services
+Expected: allows Xiamen graduates to continue their studies at DBS and earn a BA (Hons) Degree in Accounting and Finance or Financial Services
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 1.0129 seconds
+
+Query: What collaboration exists between DBS and MARA in Malaysia?
+Generated: transnational collaborative agreement
+Expected: transnational collaborative agreement
+Exact Match: 1
+BLEU Score: 0.5757
+Time Taken: 0.3138 seconds
+
+Query: What programs will EU Business School offer through DBS partnership?
+Generated: BA (Hons) in Business and a Master of Business Administration (MBA)
+Expected: BA (Hons) in Business and a Master of Business Administration (MBA)
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.5997 seconds
+
+Query: Where is EU Business School located?
+Generated: Barcelona, Geneva, Montreux, Munich, and online
+Expected: Barcelona, Geneva, Montreux, Munich, and online
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.4269 seconds
+
+Query: What type of institution is Universidad Popular Autónoma del Estado de Puebla?
+Generated: private, non-profit university
+Expected: private, non-profit university
+Exact Match: 1
+BLEU Score: 0.5757
+Time Taken: 0.3620 seconds
+
+Query: Where can prospective students find more information about applying to DBS?
+Generated: On the DBS website at www.dbs.ie
+Expected: On the DBS website at www.dbs.ie
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.5310 seconds
+
+Query: What should applicants submit along with the completed application form?
+Generated: True
+Expected: Academic Transcripts
+Exact Match: 0
+BLEU Score: 0.0000
+Time Taken: 0.1590 seconds
+
+Query: How can application fees be paid?
+Generated: Via credit or debit card through the DBS website, or by cheque or postal order payable to Dublin Business School
+Expected: Via credit or debit card through the DBS website, or by cheque or postal order payable to Dublin Business School
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.6703 seconds
+
+Query: What is required if a candidate's academic documents are in a language other than English or Irish?
+Generated: Certified English translations
+Expected: Certified English translations
+Exact Match: 1
+BLEU Score: 0.5757
+Time Taken: 0.2524 seconds
+
+Query: Who can complete the academic reference for applicants?
+Generated: An academic referee or a professional referee
+Expected: An academic referee or a professional referee
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.4341 seconds
+
+Query: When should applicants expect a decision after submitting their application?
+Generated: Applications are usually processed within 4 to 6 weeks
+Expected: 4 to 6 weeks
+Exact Match: 1
+BLEU Score: 0.2985
+Time Taken: 0.3362 seconds
+
+Query: Can applicants submit their application online?
+Generated: Yes, applications can be submitted online via the DBS website
+Expected: Yes, applications can be submitted online via the DBS website
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.4902 seconds
+
+Query: Is there an application deadline for programs at DBS?
+Generated: True
+Expected: True
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.1593 seconds
+
+Query: What documents must Non-EU applicants submit with their application to DBS?
+Generated: Academic transcripts (original and official English translation if issued in another language if issued in another language), proof of identification (passport), detailed Curriculum Vitae, proof of English proficiency, academic/business references (except Business programmes) and a copy of GNIB card and work permit
+Expected: Academic transcripts (original and official English translation if issued in another language if issued in another language), proof of identification (passport), detailed Curriculum Vitae, proof of English proficiency, academic/business references (except Business programmes) and a copy of GNIB card and work permit
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 1.6611 seconds
+
+Query: What should Non-EU applicants with residency in Ireland include in their application?
+Generated: A copy of their GNIB (Garda National Immigration Bureau) card, work permit (if applicable), passport, and the letter issued by the Department of Justice, Equality and Law Reform explaining their documentation
+Expected: A copy of their GNIB (Garda National Immigration Bureau) card, work permit (if applicable), passport, and the letter issued by the Department of Justice, Equality and Law Reform explaining their documentation
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 1.1510 seconds
+
+Query: Can Non-EU applicants apply online?
+Generated: True
+Expected: True
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.1679 seconds
+
+Query: Who can applicants contact for more information about international applications?
+Generated: International Admissions Office
+Expected: International Admissions Office
+Exact Match: 1
+BLEU Score: 0.5757
+Time Taken: 0.2123 seconds
+
+Query: What NFQ level is the Higher Diploma in Arts in Psychology?
+Generated: NFQ Level 8
+Expected: NFQ Level 8
+Exact Match: 1
+BLEU Score: 0.5757
+Time Taken: 0.2964 seconds
+
+Query: Who helps international students with immigration services and advice at DBS?
+Generated: The International Student Services Team
+Expected: International Student Services Team
+Exact Match: 1
+BLEU Score: 0.6687
+Time Taken: 0.2843 seconds
+
+Query: Does DBS offer social and cultural activities for international students?
+Generated: as part of the support provided by the International Student Services Team
+Expected: offer social and cultural activities for international students
+Exact Match: 0
+BLEU Score: 0.0000
+Time Taken: 0.4224 seconds
+
+Query: How does DBS support staff development for teaching?
+Generated: through induction, continuous professional development, and participation in teaching enhancement activities
+Expected: through induction, continuous professional development, and participation in teaching enhancement activities
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.4646 seconds
+
+Query: What approaches does DBS adopt for teaching and learning?
+Generated: student-centred and active learning
+Expected: student-centred and active learning
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3379 seconds
+
+Query: How does DBS engage students in quality assurance processes?
+Generated: student representation, feedback surveys, and participation in committees
+Expected: student representation, feedback surveys, and participation in committees
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3748 seconds
+
+Query: What awards has DBS received for teaching excellence?
+Generated: Athena SWAN bronze award and recognition from the European Foundation for Management Development
+Expected: Athena SWAN bronze award and recognition from the European Foundation for Management Development
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.4839 seconds
+
+Query: What is the role of the Learning and Teaching Enhancement Unit at DBS?
+Generated: supports staff and students by promoting best practices in teaching and learning, and fostering innovation
+Expected: achieve a learning centred integrated flexible learning environment
+Exact Match: 0
+BLEU Score: 0.0000
+Time Taken: 0.5245 seconds
+
+Query: What kind of support does DBS provide to students with disabilities?
+Generated: classroom assistants, sign language interpreters, and assistive technologies
+Expected: classroom assistants, sign language interpreters, and assistive technologies
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.5358 seconds
+
+Query: Which company collaborates with DBS to provide nearby student housing?
+Generated: Which company
+Expected: Mezzino Brickworks
+Exact Match: 0
+BLEU Score: 0.0000
+Time Taken: 0.1757 seconds
+
+Query: Are bookings for Brickworks rooms handled by the company or the college?
+Generated: the company or the college
+Expected: the company or the college
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.2593 seconds
+
+Query: Is it possible to book accommodation at Brickworks for less than a full academic year?
+Generated: Is it possible to book accommodation at Brickworks for less than a full academic year?
+Expected: Yes, semester-based bookings are available depending on availability.
+Exact Match: 0
+BLEU Score: 0.0000
+Time Taken: 0.5940 seconds
+
+Query: What type of view does the roof terrace at Brickworks offer?
+Generated: panoramic views of Dublin
+Expected: panoramic views of Dublin
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.2456 seconds
+
+Query: What feature of the rooms at Brickworks is emphasized for student comfort?
+Generated: What feature
+Expected: The rooms are designed for comfortable student living.
+Exact Match: 0
+BLEU Score: 0.0000
+Time Taken: 0.2084 seconds
+
+Query: Is a virtual tour of the accommodation at Brickworks available to prospective students?
+Generated: True
+Expected: True
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.2051 seconds
+
+Query: How much does a single room with half board cost per week in a homestay?
+Generated: €230 per week
+Expected: €230 per week
+Exact Match: 1
+BLEU Score: 0.5757
+Time Taken: 0.2776 seconds
+
+Query: How much extra should students budget for commuting to DBS from homestays?
+Generated: €25 to €35 per week
+Expected: €25 to €35 per week
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3504 seconds
+
+Query: What is the typical monthly rent range for single rooms near Dublin city?
+Generated: €800 to €1100 per month
+Expected: €800 to €1100 per month
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3009 seconds
+
+Query: Why does rent cost vary depending on location in Dublin?
+Generated: why
+Expected: True
+Exact Match: 0
+BLEU Score: 0.0000
+Time Taken: 0.1737 seconds
+
+Query: What benefit does Spotahome offer DBS students?
+Generated: 25% discount on the one time service fee
+Expected: 25% discount on the one time service fee
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3297 seconds
+
+Query: What should students do to learn more about sourcing accommodation in Dublin?
+Generated: watch the 'Webinar on sourcing accommodation in Dublin' and check the DBS Accommodation Guide
+Expected: watch the 'Webinar on sourcing accommodation in Dublin' and check the DBS Accommodation Guide
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.6289 seconds
+
+Query: Who do you contact to book a homestay through ISA?
+Generated: Homestay Partners ISA
+Expected: Homestay Partners ISA
+Exact Match: 1
+BLEU Score: 0.5757
+Time Taken: 0.2785 seconds
+
+Query: What is the advantage of DBS's location in Dublin?
+Generated: DBS is conveniently located in the heart of the City Centre
+Expected: DBS is conveniently located in the heart of the City Centre
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.4469 seconds
+
+Query: What should students use to decide where to live in Dublin?
+Generated: the transport network or the area codes
+Expected: the transport network or the area codes
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3093 seconds
+
+Query: What does www.staycity.com offer for DBS students?
+Generated: What
+Expected: accommodation options
+Exact Match: 0
+BLEU Score: 0.0000
+Time Taken: 0.1463 seconds
+
+Query: What temporary accommodation options are suggested for students just arriving in Dublin?
+Generated: What
+Expected: Hostels, Hotels, and AirBnBs are suggested as the best options while students settle in.
+Exact Match: 0
+BLEU Score: 0.0000
+Time Taken: 0.1664 seconds
+
+Query: Where can students get more help with their accommodation search?
+Generated: where
+Expected: Students can watch the 'Webinar on sourcing accommodation in Dublin' and check the DBS Accommodation Guide.
+Exact Match: 0
+BLEU Score: 0.0000
+Time Taken: 0.1716 seconds
+
+Query: What should you do if the accommodation bank account is not Irish?
+Generated: Do not make any payments
+Expected: Do not make any payments
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.2614 seconds
+
+Query: How do you book a first time registration appointment with ISD?
+Generated: free phoning 1800 800 630 or visiting the ISD registration website
+Expected: 1800 800 630
+Exact Match: 1
+BLEU Score: 0.1161
+Time Taken: 0.4790 seconds
+
+Query: Is a bank letter required to open an account with MoneyJar?
+Generated: True
+Expected: True
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.1612 seconds
+
+Query: What is the 5 digit sign in code for DBS students to open a MoneyJar account?
+Generated: 41775
+Expected: 41775
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.2602 seconds
+
+Query: Which company has DBS partnered with for opening bank accounts?
+Generated: MoneyJar
+Expected: MoneyJar
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.2194 seconds
+
+Query: What happens if a student's attendance drops below 85% at DBS?
+Generated: DBS may notify Immigration Services
+Expected: DBS may notify Immigration Services
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3315 seconds
+
+Query: Is 100% attendance mandatory for DBS lectures and workshops?
+Generated: Full (100%) attendance is required at all lectures and workshops
+Expected: Full
+Exact Match: 1
+BLEU Score: 0.0235
+Time Taken: 0.3819 seconds
+
+Query: How is attendance linked to the student visa at DBS?
+Generated: Full attendance is a condition of your student visa
+Expected: Full attendance is a condition of your student visa
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3667 seconds
+
+Query: Who should students contact if they want to start a new Club or Society at DBS?
+Generated: Clubs and Society Officer
+Expected: Clubs and Society Officer
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.2706 seconds
+
+Query: Where can students find ticket information for DBS summer series events?
+Generated: Eventbrite
+Expected: Eventbrite
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.2377 seconds
+
+Query: How can you join a club or society at DBS?
+Generated: email student.services@dbs.ie to discuss options with the Clubs and Society Officer
+Expected: email student.services@dbs.ie to discuss options with the Clubs and Society Officer
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.8031 seconds
+
+Query: Where can you find DBS student events and purchase tickets?
+Generated: Eventbrite
+Expected: Eventbrite
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.2034 seconds
+
+Query: Which social media handles are used by DBS Student Experience on Instagram and TikTok?
+Generated: @dbsstudentexperience
+Expected: INSTAGRAM @dbsstudentexperience TIKTOK @dbsstudentexperience FACEBOOK DBS Student Experience INSTAGRAM @dbsstudentexperience TIKTOK @dbsstudentexperience FACEBOOK DBS Student Experience SPOTIFY DBS Student Experience Podcast
+Exact Match: 0
+BLEU Score: 0.0000
+Time Taken: 0.4133 seconds
+
+Query: What is the purpose of the cost of living guide for DBS students?
+Generated: What is the purpose of the cost of living guide for DBS students?
+Expected: budgeting tips for DBS Students: 28
+Exact Match: 0
+BLEU Score: 0.0442
+Time Taken: 0.4912 seconds
+
+Query: How much should DBS students budget monthly for living expenses in Dublin?
+Generated: True
+Expected: €2,500
+Exact Match: 0
+BLEU Score: 0.0000
+Time Taken: 0.2084 seconds
+
+Query: Can students count on earning a job income to pay for their studies at DBS?
+Generated: can students count on earning a job income to pay for their studies at DBS?
+Expected: No, they should not rely on job income and must have sufficient funds before arriving.
+Exact Match: 0
+BLEU Score: 0.0428
+Time Taken: 0.5416 seconds
+
+Query: What number can you dial anywhere in Europe for emergency services?
+Generated: 112
+Expected: 112
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.1947 seconds
+
+Query: Where can students in Dublin get over-the-counter medication and advice for minor illnesses?
+Generated: visit a pharmacy (chemist)
+Expected: a pharmacy
+Exact Match: 1
+BLEU Score: 0.1682
+Time Taken: 0.3609 seconds
+
+Query: What is the email for Dame Street Medical Centre?
+Generated: "query"
+Expected: damestreetmedicalcentre@gmail.com
+Exact Match: 0
+BLEU Score: 0.0000
+Time Taken: 0.2237 seconds
+
+Query: Why is the DBS partnership with Dame Street Medical beneficial for students?
+Generated: close proximity to the DBS campus
+Expected: close proximity to the DBS campus
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3129 seconds
+
+Query: What is the annual cost of the Irish Residence Permit?
+Generated: €300
+Expected: €300
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.1877 seconds
+
+Query: What is the price range for health insurance for international students in Ireland?
+Generated: €160 and €670 per year
+Expected: €160 and €670 per year
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3680 seconds
+
+Query: How much does purpose-built student accommodation cost in Dublin?
+Generated: €275 and €450 per week
+Expected: €275 and €450 per week
+Exact Match: 1
+BLEU Score: 1.0000
+Time Taken: 0.3005 seconds
+
