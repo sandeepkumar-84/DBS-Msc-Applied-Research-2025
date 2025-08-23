@@ -38,7 +38,7 @@ testing_path_files = [
 ]
 
 # github path defined
-github_url_training  = "https://raw.githubusercontent.com/sandeepkumar-84/DBS/dbs_applied_research_project_v1/AppliedResearch/Working%20v1/LSTM%20Version/Training_set_v2.json"
+github_url_training  = "https://raw.githubusercontent.com/sandeepkumar-84/DBS-Msc-Applied-Research-2025/refs/heads/main/data/training-testing-data-files/LSTM_Training_DataSet.json"
 
 qa_pairs_combined_raw = []
 load_flag = False

@@ -71,8 +71,8 @@ print("innitial set is completed")
 
 # github urls for training data
 github_urls_training = [
-    "https://raw.githubusercontent.com/sandeepkumar-84/DBS/refs/heads/dbs_applied_research_project_v1/AppliedResearch/Working%20v1/Transformer%20Version/Transformer_Training_DataSet-1.txt",
-    "https://raw.githubusercontent.com/sandeepkumar-84/DBS/refs/heads/dbs_applied_research_project_v1/AppliedResearch/Working%20v1/Transformer%20Version/Transformer_Training_DataSet-2.txt"
+    "https://raw.githubusercontent.com/sandeepkumar-84/DBS-Msc-Applied-Research-2025/refs/heads/main/data/training-testing-data-files/Transformer_Training_DataSet-1.txt",
+    "https://raw.githubusercontent.com/sandeepkumar-84/DBS-Msc-Applied-Research-2025/refs/heads/main/data/training-testing-data-files/Transformer_Training_DataSet-2.txt"
 ]
 
 # local path for data files
@@ -329,39 +329,28 @@ raw_answer = "over 43,000"
 # local testing file path
 file_path_test = f"{local_research_path}/Transformer_Test_DataSet.json"
 # github testing file path
-github_urls_test = "https://raw.githubusercontent.com/sandeepkumar-84/DBS/refs/heads/dbs_applied_research_project_v1/AppliedResearch/Working%20v1/Transformer%20Version/Transformer_Test_DataSet.json"
+github_urls_test = "https://raw.githubusercontent.com/sandeepkumar-84/DBS-Msc-Applied-Research-2025/refs/heads/main/data/training-testing-data-files/Transformer_Test_DataSet.json"
 
 test_set = []
 load_test_local = False
 
-# local function to load the test set
-def load_test_set(path):
-    if not os.path.exists(path):
-        raise FileNotFoundError(f"The file {path} does not exist.")
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-        load_test_local = True
-        print(f"loaded test set from local file: {path}")
-    return data
-
-# function to load the test set from github
-def lod_test_set_from_github(path):
+def load_test_set(local_path, remote_url):
+    if os.path.exists(local_path):
+        with open(local_path, "r", encoding="utf-8") as f:
+            print(f"loaded test set from local file: {local_path}")
+            return json.load(f)
     try:
-        response = requests.get(path)
-        if response.status_code == 200:
-            data = response.json()
-            return data
-        else:
-            raise Exception(f"failed to fetch data from {path}. Status code: {response.status_code}")
+        response = requests.get(remote_url, timeout=10)
+        response.raise_for_status()
+        print(f"Loaded test set from GitHub: {remote_url}")
+        return response.json()
     except Exception as e:
-        raise Exception(f"error loading test set from GitHub: {e}")
+        raise RuntimeError(f"failed to load test set from both local and GitHub: {e}")
 
-# control statement to load the test set, first from local, if not found then from github
 try:
-    load_test_set(file_path_test)
-    if not load_test_local:
-        test_set = lod_test_set_from_github(github_urls_test)
+    test_set = load_test_set(file_path_test, github_urls_test)
     print("test set loaded successfully.")
+    print(f"total test count: {len(test_set)}")
 except Exception as e:
     print(f"Error: {e}")
 
