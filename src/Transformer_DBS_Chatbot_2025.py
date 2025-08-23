@@ -75,10 +75,9 @@ github_urls_training = [
     "https://raw.githubusercontent.com/sandeepkumar-84/DBS/refs/heads/dbs_applied_research_project_v1/AppliedResearch/Working%20v1/Transformer%20Version/Transformer_Training_DataSet-2.txt"
 ]
 
-# local path for training data
+# local path for data files
 training_path_files = [
-    "/content/Research-Chatbot/Transformer_Training_DataSet-1.txt",
-    "/content/Research-Chatbot/Transformer_Training_DataSet-2.txt",                                                       "/content/Research-Chatbot/Transformer_Test_DataSet.json",
+    f"{local_research_path}/Transformer_Training_DataSet-1.txt", f"{local_research_path}/Transformer_Training_DataSet-2.txt",  f"{local_research_path}/Transformer_Test_DataSet.json",
 ]
 
 # parameter to check if local is sucessfuly loaded or not. 
@@ -328,7 +327,7 @@ raw_answer = "over 43,000"
 # evaluation of the model using a test set
 
 # local testing file path
-file_path_test = r"/content/Research-Chatbot/Transformer_Test_DataSet.json"
+file_path_test = f"{local_research_path}/Transformer_Test_DataSet.json"
 # github testing file path
 github_urls_test = "https://raw.githubusercontent.com/sandeepkumar-84/DBS/refs/heads/dbs_applied_research_project_v1/AppliedResearch/Working%20v1/Transformer%20Version/Transformer_Test_DataSet.json"
 
