@@ -27,6 +27,7 @@ This repository contains the implementation of a DBS-specific chatbot developed 
             -- Transformer_Test_DataSet.json
             -- Transformer_Training_DataSet-1.txt
             -- Transformer_Training_DataSet-2.txt
+            --Intent-Common.json                                                # Intent json             
         -- web-scraped-data-collected/
             -- 1. why_dbs_scraped_dbs.txt
             -- 2. contact_us_dbs_scraped_dbs.txt
@@ -37,7 +38,7 @@ This repository contains the implementation of a DBS-specific chatbot developed 
             -- 7. news_dbs_scraped_dbs.txt
             -- 8. stud_exp_dbs_scraped_dbs.txt
             -- ScrapedData-Cleaned.txt
-        --Intent-Common.json                                                # Intent json 
+
     --documentation/                                                        # all documentations
     --results/
         --LSTM_DBS_Chatbot_2025_Results.docx
