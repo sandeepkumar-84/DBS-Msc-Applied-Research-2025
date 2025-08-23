@@ -67,7 +67,102 @@
    ],
    "context_set": ""
 }, 
-
+ {
+   "tag": "hours",
+   "patterns": [
+      "timing",
+      "college timing",
+      "timing of college",
+      "what is college timing",
+      "what is my college time",
+      "college  hours",
+      "what are your hours",
+      "what is the college  hours",
+      "working days",      
+      "when is the college open",      
+      "what about college timing",
+      "is college open on saturday",
+      "tell something about college timing",      
+      "when should i come to college",
+      "when should i attend college",
+      "hours of operation",
+      "when are you guys open",
+      "timing college"
+   ],
+   "responses": [
+      "The college operates during the following hours: Monday to Friday: Open from 8:00 AM to 10:00 PM Saturday: Open from 8:00 AM to 6:00 PM Sunday: Closed"
+   ],
+   "context_set": ""
+},
+ 
+ {
+   "tag": "course",
+   "patterns": [
+      "list of courses",
+      "list of courses offered",
+      "list of courses offered in",
+      "what are the courses offered in your college?",
+      "courses?",
+      "courses offered",
+      "courses offered in (your univrsity(UNI) name)",
+      "courses you offer",
+      "branches?",
+      "courses available at UNI?",
+      "branches available at your college?",
+      "what are the courses in UNI?",
+      "what are branches in UNI?",
+      "what are courses in UNI?",
+      "branches available in UNI?",
+      "can you tell me the courses available in UNI?",
+      "can you tell me the branches available in UNI?",
+      "computer engineering?",
+      "computer",
+      "Computer engineering?",
+      "it",
+      "IT",
+      "Information Technology",
+      "AI/Ml",
+      "Mechanical engineering",
+      "Chemical engineering",
+      "Civil engineering"
+   ],
+   "responses": [
+      "Our university offers courses in Accounting & Finance, Arts, Business & Management, Counselling and Psychotherapy, Information Technology, Law, Marketing & Event Management,Media & Journalism, Professional Accountancy, Psychology & Social Science, DBS OnDemand. Master of Business Administration (MBA) in Cloud Computing Type: International, Postgraduate Program Mode: Part-Time, Full-Time Level: 9View Course Master of Business Administration (MBA) in Information Systems Type: International, Postgraduate Program Mode: Part-Time, Full-Time Level: 9View Course Master of Science (MSc) in Business Analytics Type: Postgraduate Program, International Mode: Full-Time, Part-Time Level: 9View Course Master of Science (MSc) in Data Analytics Type: Postgraduate Program, International Mode: Full-Time, Part-Time Level: 9View Course Master of Science (MSc) in Financial Technology Type: Postgraduate Program, International Mode: Full-Time, Part-Time Level: 9View Course Master of Science (MSc) in Trading and Investing Type: Postgraduate Program, International Mode: Part-Time, Full-Time Level: 9View Course Master of Science (MSc) Information Systems with Computing Type: Postgraduate Program, International Mode: Full-Time, Part-Time Level: 9View Course Master of Science (MSc.) in Artificial Intelligence Type: Postgraduate Program, International Mode: Part-Time, Full-Time Level: 9View Course Master of Science (MSc.) in Cybersecurity Type: Postgraduate Program, International Mode: Part-Time, Full-Time Level: 9View Course Master of Science (MSc.) in Financial Analytics Type: Postgraduate Program, International Mode: Part-Time, Full-Time Level: 9View Course Postgraduate Diploma in Financial Analytics | Full-time Type: FREE* HCI Pillar 1 Program Mode: Full-Time Level: 9View Course BA (Hons) Business (Information Systems) – Full-time Type: International, Full-time Degrees/ Certificates Mode: Full-Time Level: 8View Course BA (Hons) Marketing (Digital Marketing) – Full-time Type: International, Full-time Degrees/ Certificates Mode: Full-Time Level: 8View Course BA (Hons) Marketing (Digital Marketing) - Part-time Type: Evening Degrees Mode: Part-Time Level: 8View Course BSc (Hons) Computing - Full-time Type: International, Full-time Degrees/ Certificates Mode: Full-Time Level: 8View Course BSc (Hons) Computing - Part-time Type: Mode: Part-Time Level: 8View Course BSc (Hons) Computing (Data Analytics and Big Data) Type: International, Full-time Degrees/ Certificates Mode: Full-Time Level: 8View Course BSc (Hons) Computing (Software Development) Type: International, Full-time Degrees/ Certificates Mode: Full-Time Level: 8View Course Higher Diploma in Business Type: Postgraduate Program, International Mode: Part-Time, Full-Time Level: 8View Course Higher Diploma in Science in Computing (Software Development) | Part-time Type: FREE* Springboard+ Program, FREE* ICT Skills Program Mode: Part-Time Level: 8View Course Higher Diploma in Science in Computing (Web & Cloud Technologies) | Part-time Type: FREE* Springboard+ Program, FREE* ICT Skills Program Mode: Part-Time Level: 8View Course Higher Diploma in Science in Data Analytics | Full-time Type: FREE* HCI Pillar 1 Program Mode: Full-Time Level: 8View Course Higher Diploma in Science in Data Analytics | Part-time Type: FREE* Springboard+ Program, FREE* ICT Skills Program Mode: Part-Time Level: 8View Course Higher Diploma in Science in Financial Technology Type: International, Postgraduate Program Mode: Part-Time, Full-Time Level: 8View Course Higher Diploma in Science in Interaction Design and User Experience Type: Postgraduate Program, International Mode: Part-Time, Full-Time Level: 8View Course Bachelor of Business in Information Technology - Full-time Type: International, Full-time Degrees/ Certificates Mode: Full-Time Level: 7View Course Diploma in Artificial Intelligence Type: Professional Evening Diplomas Mode: Part-Time View Course Diploma in Blockchain Type: Professional Evening Diplomas Mode: Part-Time View Course Diploma in Cloud Computing Type: Professional Evening Diplomas Mode: Part-Time View Course Diploma in Cybersecurity Type: Professional Evening Diplomas Mode: Part-Time View Course Diploma in Data Analytics Type: Professional Evening Diplomas Mode: Part-Time View Course Diploma in Digital Marketing & Strategy Type: Professional Evening Diplomas Mode: Part-Time View Course Diploma in Ethical Hacking Type: Professional Evening Diplomas Mode: Part-Time View Course Diploma in FinTech Type: Professional Evening Diplomas Mode: Part-Time View Course Diploma in User Experience & Design Type: Professional Evening Diplomas Mode: Part-Time View Course Higher Diploma in Science in Data Analytics Type: Postgraduate Program, International Mode: Part-Time, Full-Time View Course For more information visit <a target=\"_blank\" href=\"https://www.dbs.ie/courses\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "fees",
+   "patterns": [
+      "information about fee",
+      "information on fee",
+      "tell me the fee",
+      "college fee",
+      "fee per semester",
+      "what is the fee of each semester",
+      "what is the fees of each year",
+      "what is fee",
+      "what is the fees",
+      "how much is the fees",
+      "fees for first year",
+      "fees",
+      "about the fees",
+      "tell me something about the fees",
+      "What is the fees of hostel",
+      "how much is the fees",
+      "hostel fees",
+      "fees for AC room",
+      "fees for non-AC room",
+      "fees for Ac room for girls",
+      "fees for non-Ac room for girls",
+      "fees for Ac room for boys",
+      "fees for non-Ac room for boys"
+   ],
+   "responses": [
+      "Please find the fee details for all the courses below. You can visit <a target=\"_blank\" href=\"https://www.dbs.ie/courses\"> here</a> for detailed fee information. Master of Business Administration (MBA) 1 Year €12,750 MBA (Marketing Stream) 1 Year €12,750 MBA (HRM Stream) 1 Year €12,750 MBA (Information Systems Stream) 1 Year €12,750 MBA (Project Management Stream) 1 Year €12,750 MBA (Finance Stream) 1 Year €12,750 MBA (Cloud Computing Stream) 1 Year €12,750 MSc in Management Practice 1 Year €8,900 MSc in Marketing 1 Year €8,900 MSc in International Accounting & Finance 1 Year €8,900 MSc in Information Systems with Computing 1 Year €8,900 MSc in Information & Library Management 1 Year €8,900 MSc in Digital Marketing & Analytics 1 Year €8,995 MSc in Financial Technology 1 Year €8,995 MSc in Data Analytics 1 Year €8,995 MSc in Business Analytics 1 Year €8,995 MSc in Human Resource Management 1 Year €8,900 MSc in Cybersecurity 1 Year €8,995 MSc in Artificial Intelligence 1 Year €8,995 MSc in Financial Analytics 1 Year €8,995 MSc in Trading & Investing 1 Year €8,995 MSc in Supply Chain Management 1 Year €8,900 Higher Diploma in Business 1 Year €6,400 Higher Diploma in Digital Marketing 1 Year €7,250 Higher Diploma in Interaction Design & User Experience 1 Year €6,995 Higher Diploma in Project Management 1 Year €6,995 Higher Diploma in Data Analytics 1 Year €7,250 Higher Diploma in Financial Technology 1 Year €7,250 Higher Diploma in Aviation Finance 1 Year €7,250 MSc in Applied Psychology 1 Year MSc in Health Psychology 1 Year MA in Addiction Studies 1 Year MA in Contemporary Criminology 1 Year MA in Film & Creative Media 1 Year €8,900 €8,900 €8,900 €8,900 €8,900 Higher Diploma in Arts in Psychology 2 Years €5,950 MSc in Applied Psychology 1 Year MSc in Health Psychology 1 Year MA in Addiction Studies 1 Year MA in Contemporary Criminology 1 Year MA in Film & Creative Media 1 Year €8,900 €8,900 €8,900 €8,900 €8,900 Higher Diploma in Arts in Psychology 2 Years €5,950 MSc in Trading & Investing 2 Years €5,500 MSc in Information Systems with Computing 2 Years per annum €5,500 per annum MSc in Information & Library Management Higher Diploma in Business 2 Years 16 Months €6,400 Higher Diploma in Digital Marketing 16 Months €7,250 Higher Diploma in Interaction Design & User Experience 16 Months €6,995 Higher Diploma in Project Management SCHOOL OF ARTS 16 Months €6,995 MA in Psychotherapy 2 Years €5,390 per annum MA in Psychoanalytic Psychotherapy 4 Years €5,550 per annum MA in Addiction Studies 2 Years €4,350 per annum MA in Contemporary Criminology 2 Years €5,550 MA in Film & Creative Media 2 Years €5,500 per annum MSc Health Psychology 2 Years €5,500 per annum MSc in Applied Psychology Higher Diploma in Arts in Counselling & Psychotherapy 2 Years €5,500 per annum 2 Years €4,250 per annum Higher Diploma in Arts in Psychology 2 Years €5,950 "
+   ],
+   "context_set": ""
+},
 {
    "tag": "number",
    "patterns": [
@@ -120,6 +215,207 @@
    ],
    "context_set": ""
 },
+ {
+   "tag": "hostel",
+   "patterns": [
+      "hostel",
+      "hostel details",
+      "hostel facility",
+      "hostel service",      
+      "hostel address",
+      "hostel facilities",
+      "hostel location",      
+      "Is there any hostel",      
+      "do you have hostel",
+      "Where is hostel",
+      "hostel college distance",
+      "do you guys have hostel",
+      "how to get in hostel",
+      "what is the hostel address",
+      "how far is hostel from college",
+      "hostel details",      
+      "where is the hostel",
+      "how big is the hostel",
+      "distance between college and hostel",
+      "distance between hostel and college"
+   ],
+   "responses": [
+      "The DBS campuses are all located in central Dublin, with extensive transport links to the greater Dublin area. We aim to help students to find accommodation within this area. If you are successful in securing a place to study at Dublin Business School you will find our Accommodation Guide useful. <a target=\"_blank\" href=\"https://www.dbs.ie/docs/default-source/default-document-library/dbs-accommodation-guide-2024-2025.pdf?sfvrsn=2f14feb_2\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "event",
+   "patterns": [
+      "events",
+      "events organised",
+      "list of events",
+      "event list",
+      "events organised",
+      "events conducted",
+      "what are the events",
+      "what about events",
+      "Are there any event held at college",
+      "list of events organised in college",
+      "list of events conducted in college",
+      "What events are conducted in college",      
+      "Events?",
+      "functions",      
+      "tell me about events"      
+   ],
+   "responses": [
+      "For event details, visit <a target=\"_blank\" href=\"https://www.dbs.ie/student-experience/events\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "document",
+   "patterns": [
+      "documents",
+      "documents required during admission",
+      "what document to bring",
+      "documents needed for admision",
+      "admission documents",
+      "documents needed at the time of admission",
+      "documents needed during admission",
+      "documents required for admision",
+      "documents required at the time of admission",      
+      "What document are required for admission",
+      "Which document to bring for admission",      
+      "what documents do i need",
+      "what documents do I need for admission",
+      "documents needed"
+   ],
+   "responses": [
+      "European Students - How to Apply Application documents: Please complete the 1. European Application Form  <a target=\"_blank\" href=\"https://www.dbs.ie/docs/default-source/default-document-library/dbs-european-application-form---editable.pdf?sfvrsn=68b195ea_0 \"> here</a>, 2. A copy of Passport or National ID Card, 3. Evidence of English Language Proficiency, 4. Official Degree Transcripts for each year and each semester to date"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "englishrequirement",
+   "patterns": [
+      "english",
+      "english language",
+      "english proficiency",
+      "language requirement",
+      "language proficiency",
+      "english language requirement",
+      "evidence english",
+      "evidence of english",
+      "evidence of english language",
+      "evidence of english language proficiency"      
+   ],
+   "responses": [
+      "For applicants whose first language is not English, you must provide an internationally recognised English language test score (e.g. B2+ for CEFRL, 6.0 for IELTS, 105 for Duolingo, B2+ for Cambridge English (ESOL Level 2), 76 for TOEFL IBT and 52-57 for PTE).English proficiency exams must be dated within the last 2 years. Please check under the individual programme requirements for any specific variance in entry requirements."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "safety",
+   "patterns": [
+      "safety",
+      "COVID-19",
+      "safety announcement",
+      "safety guidelines",
+      "covid guidelines",
+      "COVID-19 guidelines"
+   ],
+   "responses": [
+      "COVID-19 safety announcement: To ensure everyone's safety and enjoyment we have some guidelines in place to make sure this meetup runs smoothly. NO LARGE GROUPS - To avoid congestion please meet at the time and the location specified in the event tab. HAVE YOUR MASKS - Please bring your own face mask and wear it at all times if possible. BRING YOUR OWN HAND SANITIZERS - We may be on the go and could have limited access to handwashing facilities. KEEP YOUR DISTANCE - Try to minimize your contact inside 2m with others as much as possible. KEEP TO YOURSELF - Try to avoid sharing things if possible, even if you are good friends/living together. STAY SAFE AT ALL TIMES - Stick to Government guidelines when getting around or on public transport. BE RESPONSIBLE & DO THE RIGHT THING! - Stick to our guidelines so we can all have a fun and safe experience. ASK YOUR STUDENT LEADERS! - If you need any help or have any questions ask your designated Student Leader."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "floors",
+   "patterns": [
+      "size of campus",
+      "building size",
+      "How many floors does college have",
+      "floors in college",
+      "how tall is UNI's College of Engineering college building",
+      "floors"
+   ],
+   "responses": [
+      "Please take a virtual tour of our Aungier Street and South Great George's Street campus. <a target=\"_blank\" href=\"https://www.dbs.ie/about-dbs/3d-campus-tour \"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "library",
+   "patterns": [
+      "Library",
+      "Where is library",
+      "is there any library",
+      "library facility",
+      "library facilities",
+      "do you have library",
+      "does the college have library facility",
+      "college library",
+      "where can i get books",
+      "book facility",
+      "Library information",
+      "Library books information",
+      "Tell me about library",
+      "how many libraries"
+   ],
+   "responses": [
+      "Please visit <a target=\"_blank\" href=\"https://library.dbs.ie \"> here</a> for library."
+   ],
+   "context_set": ""
+},
+ 
+ {
+   "tag": "canteen",
+   "patterns": [
+      "food facilities",
+      "canteen facilities",
+      "canteen facility",
+      "is there any canteen",
+      "Is there a cafetaria in college",
+      "Does college have canteen",
+      "Where is canteen",
+      "where is cafetaria",
+      "canteen",
+      "Food",
+      "Cafetaria"
+   ],
+   "responses": [
+      "DBS provides canteen spaces for students - Aungier Street underground floor and Castle House 4th floor"
+   ],
+   "context_set": ""
+},
+ 
+ {
+   "tag": "mission",
+   "patterns": [
+      "mission",
+      "vision",
+      "dbs mission",
+      "dbs vision",
+      "purpose",
+      "dbs purpose",
+      "values",
+      "dbs values"
+   ],
+   "responses": [
+      "Our mission is to help individuals achieve their education and career goals. We build futures, one success story at a time. Diverse, innovative and collaborative. Recognized globally for excellence in teaching and learning and for supporting every learner build a successful career. We’re here to inspire and nurture every learner to realize their career ambitions. Our values inform everything we do and underpin our behaviors and actions. They are the foundation upon which we develop and grow as an institution. They are to: Act with integrity Empower and support Create opportunity Grow knowledge Drive results together"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "scholarship",
+   "patterns": [
+      "scholarship",
+      "scholarship provided by college",
+      "scholarship provided by university",      
+      "Is scholarship available",      
+      "scholarships"
+   ],
+   "responses": [
+      "Scholarships are supported by our college. For details and updates visit <a target=\"_blank\" href=\"https://www.dbs.ie/about-dbs/news-and-events//2015/06/16/dbs-announces-us-scholarships\">here</a>"
+   ],
+   "context_set": ""
+},
  
  {
    "tag": "random",
@@ -147,7 +443,7 @@
       "fucker"
    ],
    "responses": [
-      "I'm here to assist, but let's keep it friendly!",
+      "I’m here to assist, but let’s keep it friendly!",
       "please use appropriate language",
       "Maintaining decency would be appreciated"
    ],

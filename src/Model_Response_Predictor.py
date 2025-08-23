@@ -31,7 +31,7 @@ def reload_local(local_save_path):
     reloaded_index_local = faiss.read_index(f"{local_save_path}/faiss_index_dbs.index")
     with open(f"{local_save_path}/corpus_dbs.json","r",encoding="utf-8") as f:
         reloaded_corpus_local = json.load(f)
-    print("reloaded from LOCAL")
+    print(f"reloaded from LOCAL path{local_save_path} ")
 
 def reload_hf(repo_id):
     global reloaded_model_hf, reloaded_index_hf, reloaded_corpus_hf
@@ -83,4 +83,4 @@ def provide_res_to_ui(text):
     return answer
 
 query_to_test = "student population of DBS?"
-#print("response: ", provide_res_to_ui(query_to_test))
+print("response: ", provide_res_to_ui(query_to_test))
