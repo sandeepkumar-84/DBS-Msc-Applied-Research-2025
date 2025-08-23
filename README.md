@@ -63,6 +63,7 @@ This repository contains the implementation of a DBS-specific chatbot developed 
 
 # 1. From utilities folder run installations. It will install alll the livraries required in all the files. 
 #    Creats the local directories in C drive used by code for uploading training, testing, logo etc
+#    Load the files from github
 
      python  utilities/install_dependencies.py
 # 2. To run the Transformer version of the chatbot use command 
@@ -72,4 +73,4 @@ This repository contains the implementation of a DBS-specific chatbot developed 
 # 4. To run the the chatbot user interface application use command . 
      python src/UI_Chatbot_Interface.py
 # 5. To run the the Result comparison and hypothesis testing results
-     python src/UI_Chatbot_Interface.py
+     python src/ResultComparison.py

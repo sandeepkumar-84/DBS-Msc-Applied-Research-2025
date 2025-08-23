@@ -53,8 +53,9 @@ file_urls = {
     "https://raw.githubusercontent.com/sandeepkumar-84/DBS-Msc-Applied-Research-2025/refs/heads/main/data/training-testing-data-files/Transformer_Training_DataSet-1.txt": "/content/Research-Chatbot/Transformer_Training_DataSet-1.txt",
     "https://raw.githubusercontent.com/sandeepkumar-84/DBS-Msc-Applied-Research-2025/refs/heads/main/data/training-testing-data-files/Transformer_Training_DataSet-2.txt": "/content/Research-Chatbot/Transformer_Training_DataSet-2.txt",
     "https://raw.githubusercontent.com/sandeepkumar-84/DBS-Msc-Applied-Research-2025/refs/heads/main/data/training-testing-data-files/Transformer_Test_DataSet.json": "/content/Research-Chatbot/Transformer_Test_DataSet.json",
-    "https://raw.githubusercontent.com/sandeepkumar-84/DBS-Msc-Applied-Research-2025/main/data/training-testing-data-files/DBS-Logo-Chat.png": "/content/DBS-Logo-Chat.png"
-}
+    "https://raw.githubusercontent.com/sandeepkumar-84/DBS-Msc-Applied-Research-2025/main/data/training-testing-data-files/DBS-Logo-Chat.png": "/content/DBS-Logo-Chat.png",
+    "https://raw.githubusercontent.com/sandeepkumar-84/DBS-Msc-Applied-Research-2025/refs/heads/main/results/LSTM_DBS_Chatbot_Output_2025.txt": "/content/LSTM_DBS_Chatbot_Output_2025.txt",
+    "https://raw.githubusercontent.com/sandeepkumar-84/DBS-Msc-Applied-Research-2025/refs/heads/main/results/Transformer_DBS_Chatbot_Output_2025.txt": "/content/Transformer_DBS_Chatbot_Output_2025.txt"}
 for url, path in file_urls.items():
     response = requests.get(url)
     with open(path, 'wb') as f:
