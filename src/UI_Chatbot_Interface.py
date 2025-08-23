@@ -18,7 +18,7 @@ BODY_BACK_COL = "#FCFCFC"
 class DBSResearchChatbotApp:    
     def __init__(self):
         self.window = Tk() # main window initialization
-        logo_image = Image.open("/content/DBS-Chat.png")  # dbs logo png path
+        logo_image = Image.open("/content/DBS-Logo-Chat.png")  # dbs logo png path
         logo_image = logo_image.resize((240, 30), Image.Resampling.LANCZOS) # adjusting/resizing image
         self.logo_photo = ImageTk.PhotoImage(logo_image) # converting image to photoimage
         self._setup_main_chat_window() # setting up main chat window
