@@ -82,5 +82,5 @@ def provide_res_to_ui(text):
         answer = generate_answer(query, passages)    
     return answer
 
-query_to_test = "student population of DBS?"
-print("response: ", provide_res_to_ui(query_to_test))
+#query_to_test = "student population of DBS?"
+#print("response: ", provide_res_to_ui(query_to_test))
