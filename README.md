@@ -73,7 +73,10 @@ This repository contains the implementation of a DBS-specific chatbot developed 
             -- 8. stud_exp_dbs_scraped_dbs.txt
             -- ScrapedData-Cleaned.txt
 
-    --documentation/                                                        # all documentations
+    --documentation/
+            -- Sandeep_20049275_Presentation.pptx                          # all documentations
+            -- Sandeep_20049275_Report.docx
+            -- Sandeep_20049275_Report.pdf
     --results/
         --LSTM_DBS_Chatbot_2025_Results.docx
         --LSTM_DBS_Chatbot_Output_2025.txt
