@@ -12,7 +12,7 @@ nltk.download('punkt')
 from Intent_Rule_Responses import detect_intent_and_respond
 
 local_save_path = "/content/Saved_Model_Local"
-mode_to_run = 'local'
+mode_to_run = 'hf'
 repo_id = "sandeepkumar84/dbs-chatbot-transformer-hf-v3"
 
 t5_model_dbs = T5ForConditionalGeneration.from_pretrained("t5-base")

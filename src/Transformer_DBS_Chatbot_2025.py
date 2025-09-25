@@ -33,7 +33,7 @@ except LookupError:
 print("all necessary imports have been successfully completed.")
 
 # variable declaration section 
-mode_to_run = 'local' # options are 'local' or 'hf' (hugging face)
+mode_to_run = 'hf' # options are 'local' or 'hf' (hugging face)
 save_to_hf_required = False # set to True if you want to save to hugging face
 local_save_path = "/content/Saved_Model_Local" # path to save the model and index locally
 local_hf_save_path = "/content/Saved_Model_HF" # path to save the model and index before pushing to hugging face
